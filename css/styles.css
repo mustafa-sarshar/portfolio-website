@@ -5,7 +5,9 @@
 /* ---------------- V A R I A B L E S ---------------- */
 /* ------------------ F U N C T I O N S ------------------ */
 /* ----------------- U N I V E R S A L S ----------------- */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -15,7 +17,7 @@ body {
   font-weight: 400;
   font-size: 16px; /* Sets the font size to 16px */
   line-height: 1.6; /* Sets the line-height to 1.6 */
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 img[alt=Twitter]:hover,
@@ -467,6 +469,11 @@ a {
     grid-row: auto/auto;
   }
 }
+.project-links img {
+  vertical-align: middle;
+  margin: 0 1rem 0 0;
+}
+
 /* --- P A G E - E L E M E N T -		A B O U T - M E --- */
 .about-me {
   width: 90%;
