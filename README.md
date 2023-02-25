@@ -1,5 +1,7 @@
 # portfolio-website
 
+- The official portfolio website of Mustafa Sarshar 😊.
+
 ## OBJECTIVES
 
 - To build portfolio website that includes multiple pages, which gives information about me, my works and my skills.
@@ -23,10 +25,10 @@
 
 ## KEY FEATURES
 
-- A **welcome** page, where user can see a brief information about the author as well as his photo.
-- An **about me** page, where user gets more details about the background and technical skills of the author.
-- A **my works** page, where user can learn about the projects that the authors has already completed as well as the corresponding codes, website and documentation.
-- A **contact** page, where user can get the author's contact information and/or can contact the author directly from the website.
+- A homepage with a short introduction and link(s) to work examples
+- An about page with key information about you as an individual, my relevant skills, and the tools or programming language(s) I use
+- A section with my work examples—either as part of my homepage (e.g., in a grid) or on a separate work page
+- A contact section—either as a section on each page (e.g., in the footer) or in a separate contact page
 
 ## NOTES:
 
