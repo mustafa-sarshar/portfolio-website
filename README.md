@@ -8,6 +8,12 @@
 
 ## VISIT THE WEBSITE [😎🔗](https://mustafa-sarshar.github.io/portfolio-website/)
 
+### SCREENSHOTS
+
+| **Landing Page** | **About Me** | **My Works** | **Contact Me** |
+| :------------: | :------------: | :------------: | :------------: |
+| ![Landing Page](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-1.png?raw=true) | ![About Me](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-2.png?raw=true) | ![My Works](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-3.png?raw=true) | ![Contact Me](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-4.png?raw=true) |
+
 ## THE 5 Ws
 
 1. Who — The users of the portfolio website. These could be friends, colleagues or potential employers.
@@ -30,9 +36,7 @@
 - A section with my work examples—either as part of my homepage (e.g., in a grid) or on a separate work page
 - A contact section—either as a section on each page (e.g., in the footer) or in a separate contact page
 
-## NOTES:
-
-### TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 - HTML 5
 - CSS 3
