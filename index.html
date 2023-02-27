@@ -7,7 +7,18 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="./assets/img/profile_photo_1.jpg" type="image/x-icon">
+  <!-- based on realfavicongenerator.net recommendations START -->
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon_package_v0.16//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="./assets/img/favicon_package_v0.16//site.webmanifest">
+  <link rel="mask-icon" href="./assets/img/favicon_package_v0.16//safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- END -->
+  <!-- Not needed any more
+  		<link rel="shortcut icon" type="image/x-icon" href="./img/favicon_package_v0.16//favicon-32x32.png">
+  	-->
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body class="w3-black">
@@ -53,8 +64,8 @@
       </h1>
       <p>Software- & Web-Developer, Sport & Health Data Scientist, Basketball Coach and Athletic Trainer</p>
       <!-- <img src="./assets/img/profile_photo_1.jpg" alt="portfolio photo" class="w3-image" width="992" height="1108"> -->
-      <img src="./assets/img/profile_photo_1.jpg" alt="portfolio photo" class="w3-image w3-round" width="400"
-        height="600">
+      <img src="./assets/img/profile_photo_1.jpg" alt="portfolio photo" class="w3-image w3-round w3-animate-opacity"
+        width="400" height="600">
     </header>
 
     <!-- About Section -->
@@ -167,11 +178,30 @@
 
     <!-- Portfolio Section -->
     <div class="w3-padding-64 w3-content" id="works">
-      <h2 class="w3-text-light-grey">My Photos</h2>
+      <h2 class="w3-text-light-grey">My Works</h2>
       <hr style="width:200px" class="w3-opacity">
 
+      <div class="w3-content w3-display-container" id="slide-show-works">
+        <!-- <div class="works-item">
+          <h3 class="works-item__title">Musto Flix (Angular)</h3>
+          <img class="works-item__image"
+            src="https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-1.png?raw=true">
+          <p>A web-application for movie fans.</p>
+        </div>
+        <div class="works-item">
+          <h3 class="works-item__title">Musto Flix (React)</h3>
+          <img class="works-item__image"
+            src="https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true">
+          <p>A web-application for movie fans.</p>
+        </div>
+
+
+        <button class="w3-button w3-black w3-display-left" onclick="myWorksSlideShow.previous()">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="myWorksSlideShow.next()">&#10095;</button> -->
+      </div>
+
       <!-- Grid for works -->
-      <div class="w3-row-padding" style="margin:0 -16px">
+      <!-- <div class="w3-row-padding" style="margin:0 -16px">
         <div class="w3-half">
           <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
           <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
@@ -184,8 +214,7 @@
           <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
           <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
         </div>
-        <!-- End photo grid -->
-      </div>
+      </div> -->
     </div>
 
     <!-- Contact Section -->
@@ -207,7 +236,7 @@
         <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="subject"></p>
         <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="message"></p>
         <p>
-          <button id="btnSendMessage" class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <button id="btnSendMessage" class="w3-button w3-light-grey w3-padding-large" type="button">
             <i class="fa fa-paper-plane"></i> SEND MESSAGE
           </button>
         </p>
@@ -233,7 +262,8 @@
         </i>
       </a>
 
-      <br>
+      <br><br><br>
+      <hr style="width:100%" class="w3-opacity w3-center">
       <!-- Berlin Animation -->
       <div class="berlin-animation__container">
         <h2 class="berlin-animation__container-title w3-text-light-grey w3-opacity">
@@ -1686,6 +1716,7 @@
   </div>
 
   <noscript>Please enable your browser to run JavaScript codes.</noscript>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <script src="./assets/js/scripts.js"></script>
 
 </body>
