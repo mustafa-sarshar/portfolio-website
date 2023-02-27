@@ -24,10 +24,11 @@
 	<!-- Add Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<title>Mustafa Sarshar's Portfolio</title>
+	<title>Contact Mustafa Sarshar</title>
 </head>
 
 <body>
+	<div class="modal-container"></div>
 	<header class="page-header">
 		<!-- Add logo here -->
 		<a href="./index.html" rel="noopener noreferrer">
@@ -35,11 +36,10 @@
 				alt="Personal logo of Mustafa Sarshar, written as muSSar, which is an abreviation for his first and last name"
 				width="200" height="70" class="page-header__item">
 		</a>
-		<nav class="page-header__item">
+		<nav class="main-navigation page-header__item">
 			<ul role="menubar" class="navigation-list">
 				<li role="presentation">
-					<a href="./index.html" target="_self" role="menuitem"
-						class="navigation-list__item navigation-list__item--active">Home</a>
+					<a href="./index.html" target="_self" role="menuitem" class="navigation-list__item">Home</a>
 				</li>
 				<li role="presentation">
 					<a href="./about.html" target="_self" role="menuitem" class="navigation-list__item">About Me</a>
@@ -48,31 +48,51 @@
 					<a href="./work.html" target="_self" role="menuitem" class="navigation-list__item">My Works</a>
 				</li>
 				<li role="presentation">
-					<a href="./contact.html" target="_self" role="menuitem" class="navigation-list__item">Contact</a>
+					<a href="./contact.html" target="_self" role="menuitem"
+						class="navigation-list__item navigation-list__item--active">Contact</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main class="page-main">
-		<div class="clearfix"></div>
-		<div class="profile-wrapper">
-			<div class="profile__content">
-				<!-- Add Portrait image here -->
-				<img class="profile__portrait profile__portrait--shadowed" src="./img/portrait.png"
-					alt="Mustafa Sarshar Portrait" width="150" height="150">
-
-				<h1 class="profile__title">Hi There!</h1>
-				<p class="profile__text">
-					My name is <strong>Mustafa Sarshar</strong>.<br>
-					I am a <span style="text-decoration: underline; background-color: #357b702f; padding: 0 5px ;">WEB
-						DEVELOPER</span> from
-					the same World you also live in 😋.
-				</p>
+		<h1 class="page-main__title">Contact <span class="page-main__title--italic">Me</span></h1>
+		<form action="#" method="get" class="contact-form">
+			<div class="input-wrapper">
+				<label for="email" class="label-standard">E-mail: </label>
+				<input type="email" id="email" name="email" placeholder="myemail@mail.com">
 			</div>
-			<hr>
-			<a href="./work.html" class="profile__myworks">Check out some of my works</a>
+			<div class="input-wrapper">
+				<label for="tel" class="label-standard">Telephone: </label>
+				<input type="tel" id="tel" name="tel" placeholder="###-###-####">
+			</div>
+			<div class="input-wrapper">
+				<label for="message" class="label-standard">Message: </label><br>
+				<textarea id="message" name="message" maxlength="240"
+					placeholder="write your message here please!"></textarea>
+			</div>
+			<button class="button" disabled="true">Submit</button>
+		</form>
+		<hr>
+		<div class="contact-info">
+			<div class="contact-info__address">
+				<strong>Address:</strong>
+				<address>
+					...
+				</address>
+			</div>
+			<div class="contact-info__info">
+				<strong>Contact Info:</strong>
+				<div>
+					<!-- Tel: <a href="tel:+12310002000" aria-label="Call me at +123-1000-2000"
+						title="+123-1000-2000">+123-1000-2000</a><br> -->
+					<!-- According to: https://jhalabi.com/blog/accessibility-phone-number-formatting-->
+					<!-- Skype: <a href="skype:" title="Mustafa Sarshar">Mustafa Sarshar</a><br> -->
+					E-Mail: <a href="mailto:mustafa.sarshar88@mail.com" title="">mustafa.sarshar88@mail.com</a><br>
+					<a href="mailto:mustafa.sarshar88@mail.com" title="">Contact Me</a> 😀
+				</div>
+			</div>
+
 		</div>
-		<div class="clearfix"></div>
 	</main>
 	<footer class="page-footer">
 		<p>Find me on</p>
@@ -93,6 +113,6 @@
 		</div>
 	</footer>
 	<script src="js/tota11y.min.js"></script>
+	<script src="./js/page_contact.js"></script>
 </body>
-
 </html>
