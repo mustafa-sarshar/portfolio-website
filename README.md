@@ -10,9 +10,22 @@
 
 ### SCREENSHOTS
 
-| **Landing Page** | **About Me** | **My Works** | **Contact Me** |
-| :------------: | :------------: | :------------: | :------------: |
-| ![Landing Page](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-1.png?raw=true) | ![About Me](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-2.png?raw=true) | ![My Works](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-3.png?raw=true) | ![Contact Me](https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-4.png?raw=true) |
+<table width="100%" style="overflow:auto">
+  <tr>
+    <th width="20%" style="text-align:center;">Landing Page</th>
+    <th width="20%" style="text-align:center;">About Me</th>
+    <th width="20%" style="text-align:center;">My Works</th>
+    <th width="20%" style="text-align:center;">Contact Me</th>
+    <th width="20%" style="text-align:center;">Useful Links</th>
+  </tr>
+  <tr>
+    <td width="20%"><img src="https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-1.png?raw=true"/></td>
+    <td width="20%"><img src="https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-2.png?raw=true"/></td>
+    <td width="20%"><img src="https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-3.png?raw=true"/></td>
+    <td width="20%"><img src="https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-4.png?raw=true"/></td>
+    <td width="20%"><img src="https://github.com/mustafa-sarshar/portfolio-website/blob/main/docs/img/portfolio-website-5.png?raw=true"/></td>
+  </tr>
+</table>
 
 ## THE 5 Ws
 
