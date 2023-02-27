@@ -1,8 +1,12 @@
 window.addEventListener("load", () => {
+  const formContactEl = document.getElementById("contactForm");
   const btnSendMessageEl = document.getElementById("btnSendMessage");
   const slideShowWorksEl = document.getElementById("slide-show-works");
 
-  const myWorks = [
+  /**
+   * All my works
+   */
+  const MY_WORKS = [
     {
       _id: "myWorksItem1",
       title: "Musto Flix (Angular)",
@@ -171,18 +175,18 @@ window.addEventListener("load", () => {
   ];
 
   btnSendMessageEl.addEventListener("click", (evt) => {
-    evt.preventDefault();
-    console.log(evt);
+    // evt.preventDefault();
+    // console.log(formContactEl);
   });
 
   // Init slides
   function initWorks() {
-    for (let i = 0; i < myWorks.length; i++) {
-      const worksItemEl = generateWorkItem(myWorks[i]);
+    for (let i = 0; i < MY_WORKS.length; i++) {
+      const worksItemEl = generateWorkItem(MY_WORKS[i]);
 
       slideShowWorksEl.append(worksItemEl);
-      if (myWorks[i].screenShots) {
-        w3.slideshow("." + myWorks[i]._id + "-carousel", 3000);
+      if (MY_WORKS[i].screenShots) {
+        w3.slideshow("." + MY_WORKS[i]._id + "-carousel", 3000);
       }
     }
 

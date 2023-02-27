@@ -223,20 +223,27 @@
       <hr style="width:200px" class="w3-opacity">
 
       <div class="w3-section">
-        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Magdeburg, DE</p>
-        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 000000</p>
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Germany</p>
+        <!-- <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 000000</p> -->
         <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
           musto.tech.service@gmail.com</p>
       </div><br>
       <p>Let's get in touch. Send me a message:</p>
 
-      <form action="#" target="_blank">
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="name"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="email"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="subject"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="message"></p>
+      <!-- Info: https://formsubmit.co/ -->
+      <form action="https://formsubmit.co/musto.tech.service@gmail.com" method="POST" id="contactForm">
+        <!-- <input type="hidden" name="_next" value="https://mustafa-sarshar.github.io/portfolio-website/thanks.html"> -->
+        <!-- <input type="hidden" name="_cc" value="another@email.com"> -->
+        <!-- <input type="hidden" name="_captcha" value="false"> -->
+        <!-- <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase"> -->
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" name="name" minlength="5" required></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" name="email" required></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" name="_subject" minlength="5"
+            required></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" name="message" minlength="20"
+            required></p>
         <p>
-          <button id="btnSendMessage" class="w3-button w3-light-grey w3-padding-large" type="button">
+          <button id="btnSendMessage" class="w3-button w3-light-grey w3-padding-large" type="submit">
             <i class="fa fa-paper-plane"></i> SEND MESSAGE
           </button>
         </p>
