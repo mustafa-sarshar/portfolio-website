@@ -1,17 +1,27 @@
+/**
+ * @module
+ * @name Scripts
+ * @description - It hold all the scripts for the website.
+ */
+
+/**
+ * It loads all the functions that will run after the page is fully loaded.
+ * @event
+ */
 window.addEventListener("load", () => {
-  const formContactEl = document.getElementById("contactForm");
   const btnSendMessageEl = document.getElementById("btnSendMessage");
   const slideShowWorksEl = document.getElementById("slide-show-works");
 
   /**
    * All my works
+   * @constant
    */
   const MY_WORKS = [
     {
       _id: "myWorksItem1",
       title: "Musto Flix (Angular)",
       description:
-        "Using Angular framework, build the client-side for MovieApi based on its existing server-side code (REST API and database), with supporting documentation.",
+        "A simple implementation of Angular framework to build a web-app for movie fans, that communicates with the backend server for fetching data. Users can register themselves and set a favorites list of the available movies for themselves. They can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s).",
       screenShots: [
         "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-1.png?raw=true",
         "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-2.png?raw=true",
@@ -40,7 +50,7 @@ window.addEventListener("load", () => {
       _id: "myWorksItem2",
       title: "Musto Flix (React)",
       description:
-        "Using Angular framework, build the client-side for MovieApi based on its existing server-side code (REST API and database), with supporting documentation.",
+        "A simple implementation of React.js library (framework) to build a web-app for movie fans, that communicates with the backend server for fetching data. Users can register themselves and set a favorites list of the available movies for themselves. They can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s).",
       screenShots: [
         "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true",
         "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-2.png?raw=true",
@@ -98,7 +108,7 @@ window.addEventListener("load", () => {
       _id: "myWorksItem4",
       title: "Musto Friendly Chat",
       description:
-        "An implementation of React Native for developing a simple Chat application for mobile devices (iOS/Android)",
+        "An implementation of React Native for developing a simple Chat application for mobile devices (iOS/Android). The backend is developed using Google Firestore.",
       screenShots: [
         "https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-1.png?raw=true",
         "https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-2.png?raw=true",
@@ -126,7 +136,7 @@ window.addEventListener("load", () => {
       _id: "myWorksItem5",
       title: "Pokemon (Pocket Monsters) cards",
       description:
-        "A simple Web-App for kids who are a fan of Pokemon characters.",
+        "A simple Web-App for kids who are a fan of Pokemon characters. The app fetches the data about Pokemon from pokeapi.co",
       screenShots: [
         "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true",
         "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true",
@@ -154,7 +164,7 @@ window.addEventListener("load", () => {
       _id: "myWorksItem6",
       title: "Movie Api",
       description:
-        "A backend for interacting with Apis. This web application will provide users with access to information about different movies, directors, actors, and genres. Users will be able to sign up, update their personal information, and create a list of their favorite movies.",
+        "A backend for interacting with Apis. This web application will provide users with the access to information about different movies, directors, actors, and genres through Api. Users will be able to sign up, update their personal information, and create a list of their favorite movies.",
       screenShots: null,
       techUsed: ["Node.js", "Express.js", "MongoDB"],
       links: [
@@ -180,6 +190,10 @@ window.addEventListener("load", () => {
   });
 
   // Init slides
+  /**
+   * Initialize all my works
+   * @function
+   */
   function initWorks() {
     for (let i = 0; i < MY_WORKS.length; i++) {
       const worksItemEl = generateWorkItem(MY_WORKS[i]);
@@ -212,6 +226,12 @@ window.addEventListener("load", () => {
     slideShowWorksEl.append(btnNextEl);
   }
 
+  /**
+   * Generates each work item
+   * @function
+   * @param {object} workItem
+   * @returns {HTMLDivElement}
+   */
   function generateWorkItem({
     _id,
     title,
@@ -256,6 +276,7 @@ window.addEventListener("load", () => {
 
   /**
    * Generates a div of items acts as a carousel
+   * @function
    * @param {string} _id
    * @param {string[]} images
    * @returns {HTMLDivElement}
@@ -281,6 +302,7 @@ window.addEventListener("load", () => {
 
   /**
    * Generates a list of items
+   * @function
    * @param {string[]} items
    * @returns {HTMLUListElement}
    */
@@ -302,6 +324,7 @@ window.addEventListener("load", () => {
 
   /**
    * Generates a div including all links provided
+   * @function
    * @param {string[]} items
    * @returns {HTMLDivElement}
    */
