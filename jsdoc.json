@@ -1,6 +1,6 @@
 {
   "source": {
-    "include": ["./src-w3schools/"],
+    "include": ["./src-w3schools"],
     "includePattern": ".+\\.js(doc|x)?$",
     "excludePattern": "(node_modules/|docs)"
   },
