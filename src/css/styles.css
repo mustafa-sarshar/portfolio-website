@@ -240,7 +240,6 @@ a {
 .profile__myworks {
   display: block;
   clear: both;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   text-align: center;
@@ -346,8 +345,7 @@ a {
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -o-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
 }
 .modal-wrapper {
   position: absolute;
@@ -530,18 +528,6 @@ a {
   font-weight: normal;
 }
 
-@-webkit-keyframes color-change__sun {
-  0% {
-    fill: #edc655;
-  }
-  50% {
-    fill: #fcffad;
-  }
-  100% {
-    fill: #f76414;
-  }
-}
-
 @keyframes color-change__sun {
   0% {
     fill: #edc655;
@@ -553,28 +539,12 @@ a {
     fill: #f76414;
   }
 }
-@-webkit-keyframes opacity-change__grass {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes opacity-change__grass {
   0% {
     opacity: 0.5;
   }
   100% {
     opacity: 1;
-  }
-}
-@-webkit-keyframes brightness-change__horse {
-  0% {
-    filter: brightness(1%);
-  }
-  100% {
-    filter: brightness(100%);
   }
 }
 @keyframes brightness-change__horse {
@@ -585,14 +555,6 @@ a {
     filter: brightness(100%);
   }
 }
-@-webkit-keyframes blur-change__bubble {
-  0% {
-    filter: blur(0);
-  }
-  100% {
-    filter: blur(10px);
-  }
-}
 @keyframes blur-change__bubble {
   0% {
     filter: blur(0);
@@ -601,28 +563,12 @@ a {
     filter: blur(10px);
   }
 }
-@-webkit-keyframes change-position__cloud {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
 @keyframes change-position__cloud {
   from {
     transform: translate(0, 50px);
   }
   to {
     transform: translate(200px, 50px);
-  }
-}
-@-webkit-keyframes change-position__cloud--reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
   }
 }
 @keyframes change-position__cloud--reverse {
@@ -643,85 +589,55 @@ a {
 
 .berlin-animation__sun {
   /* animation: 4s color-change infinite alternate linear; */
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-name: color-change__sun;
-          animation-name: color-change__sun;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-name: color-change__sun;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 
 .berlin-animation__cloud-front {
   /* animation: 30s change-position__cloud infinite alternate ease-in-out; */
-  -webkit-animation-duration: 30s;
-          animation-duration: 30s;
-  -webkit-animation-name: change-position__cloud;
-          animation-name: change-position__cloud;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-name: change-position__cloud;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .berlin-animation__cloud-back {
   /* animation: 34s change-position__cloud--reverse infinite alternate ease-in-out; */
-  -webkit-animation-duration: 34s;
-          animation-duration: 34s;
-  -webkit-animation-name: change-position__cloud--reverse;
-          animation-name: change-position__cloud--reverse;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation-duration: 34s;
+  animation-name: change-position__cloud--reverse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .berlin-animation__grass {
   /* animation: 34s opacity-change__grass infinite alternate linear; */
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-name: opacity-change__grass;
-          animation-name: opacity-change__grass;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-name: opacity-change__grass;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .berlin-animation__horse-left {
   transform-origin: center center;
   /* animation: 34s brightness-change__horse infinite alternate linear; */
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-name: brightness-change__horse;
-          animation-name: brightness-change__horse;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-name: brightness-change__horse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .berlin-animation__tower-bubble {
   /* animation: 34s blur-change__bubble infinite alternate linear; */
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: blur-change__bubble;
-          animation-name: blur-change__bubble;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-name: blur-change__bubble;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
 }/*# sourceMappingURL=styles.css.map */
