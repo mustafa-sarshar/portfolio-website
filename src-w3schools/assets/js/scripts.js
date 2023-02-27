@@ -144,7 +144,7 @@ window.addEventListener("load", () => {
       ],
       techUsed: [
         "HTML 5",
-        "CSS 3 (via SASS)",
+        "CSS 3 (SASS)",
         "JavaScript",
         "jQuery",
         "Bootstrap v3",
