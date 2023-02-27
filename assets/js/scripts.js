@@ -346,7 +346,8 @@ window.addEventListener("load", () => {
       }
       hyperLinkEl.title = items[i].title;
       hyperLinkEl.href = items[i].href;
-      hyperLinkEl.target = "_blank";
+      hyperLinkEl.setAttribute("target", "_blank");
+      hyperLinkEl.setAttribute("rel", "noopener noreferrer");
 
       divLinksEl.append(hyperLinkEl);
     }
