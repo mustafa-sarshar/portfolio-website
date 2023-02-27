@@ -1,0 +1,200 @@
+/* Naming Convention:
+	Block Element Modifier (BEM):
+		i.e Block__Element--Modifier
+*/
+
+/* ---------------- V A R I A B L E S ---------------- */
+$color-border: #80808066;
+$color-hyperlinks--normal: #006400;
+
+/* ------------------ F U N C T I O N S ------------------ */
+@mixin animation-initializer(
+  $dur: 1s,
+  $name: "",
+  $times: 1,
+  $dir: normal,
+  $func: linear
+) {
+  animation-duration: $dur;
+  animation-name: $name;
+  animation-iteration-count: $times;
+  animation-direction: $dir;
+  animation-timing-function: $func;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.w3 {
+  &-row {
+    -padding img {
+      margin-bottom: 12px;
+    }
+  }
+
+  /* Set the width of the sidebar to 120px */
+  &-sidebar {
+    width: 120px;
+    background: #222;
+  }
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px;
+
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {
+    margin-left: 0;
+  }
+}
+
+.berlin {
+  &-animation {
+    transition: all 0.5s ease;
+
+    &:hover {
+      filter: brightness(70%);
+    }
+
+    &__cloud {
+      &-front {
+        /* animation: 30s change-position__cloud infinite alternate ease-in-out; */
+        @include animation-initializer(
+          30s,
+          change-position__cloud,
+          infinite,
+          alternate,
+          ease-in-out
+        );
+      }
+      &-back {
+        /* animation: 34s change-position__cloud--reverse infinite alternate ease-in-out; */
+
+        @include animation-initializer(
+          34s,
+          change-position__cloud--reverse,
+          infinite,
+          alternate,
+          ease-in-out
+        );
+      }
+    }
+
+    &__grass {
+      /* animation: 34s opacity-change__grass infinite alternate linear; */
+      @include animation-initializer(
+        1s,
+        opacity-change__grass,
+        infinite,
+        alternate,
+        ease-in-out
+      );
+    }
+
+    &__horse {
+      &-right {
+        transform-origin: center center;
+        /* animation: 34s brightness-change__horse infinite alternate linear; */
+        @include animation-initializer(
+          2s,
+          brightness-change__horse,
+          infinite,
+          alternate,
+          ease-in-out
+        );
+      }
+      &-left {
+        transform-origin: center center;
+        /* animation: 34s brightness-change__horse infinite alternate linear; */
+        @include animation-initializer(
+          2s,
+          brightness-change__horse,
+          infinite,
+          alternate,
+          ease-in-out
+        );
+      }
+    }
+
+    &__tower-bubble {
+      /* animation: 34s blur-change__bubble infinite alternate linear; */
+      @include animation-initializer(
+        2s,
+        blur-change__bubble,
+        infinite,
+        alternate,
+        ease-in
+      );
+    }
+
+    &__container {
+      width: 50%;
+      margin: auto;
+
+      &-title {
+        text-align: center;
+        border-bottom: 1px solid $color-border;
+        a {
+          text-decoration: none;
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes opacity-change__grass {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes brightness-change__horse {
+  0% {
+    filter: brightness(1%);
+  }
+  100% {
+    filter: brightness(100%);
+  }
+}
+
+@keyframes blur-change__bubble {
+  0% {
+    filter: blur(0);
+  }
+  100% {
+    filter: blur(10px);
+  }
+}
+
+@keyframes change-position__cloud {
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+@keyframes change-position__cloud--reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
