@@ -181,24 +181,29 @@
       <h2 class="w3-text-light-grey">My Works</h2>
       <hr style="width:200px" class="w3-opacity">
 
-      <div class="w3-content w3-display-container" id="slide-show-works">
-        <!-- <div class="works-item">
-          <h3 class="works-item__title">Musto Flix (Angular)</h3>
-          <img class="works-item__image"
-            src="https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-1.png?raw=true">
-          <p>A web-application for movie fans.</p>
-        </div>
-        <div class="works-item">
-          <h3 class="works-item__title">Musto Flix (React)</h3>
-          <img class="works-item__image"
-            src="https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true">
-          <p>A web-application for movie fans.</p>
-        </div>
-
-
-        <button class="w3-button w3-black w3-display-left" onclick="myWorksSlideShow.previous()">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="myWorksSlideShow.next()">&#10095;</button> -->
+      <div class="w3-bar w3-black w3-center">
+        <button id="btn-tabs-works__web-dev" class="w3-bar-item w3-button" title="Web-Development Projects">Web-Dev
+          🖥️</button>
+        <button id="btn-tabs-works__ai" class="w3-bar-item w3-button" title="AI Projects">AI 🤖</button>
+        <button id="btn-tabs-works__r-and-d" class="w3-bar-item w3-button" title="Research & Development">R&D
+          🔬</button>
       </div>
+
+      <div id="tabs-works__web-dev" class="w3-container tabs-works-items">
+        <h2>Web Development Projects</h2>
+      </div>
+
+      <div id="tabs-works__ai" class="w3-container tabs-works-items" style="display:none">
+        <h2>Artificial Intelligence Projects</h2>
+        <div class="w3-content w3-display-container" id="tabs-works__ai"></div>
+      </div>
+
+      <div id="tabs-works__r-and-d" class="w3-container tabs-works-items" style="display:none">
+        <h2>Research & Development</h2>
+        <div class="w3-content w3-display-container" id="tabs-works__r-d"></div>
+      </div>
+
+      <div class="w3-content w3-display-container" id="tabs-works__web-dev"></div>
 
       <!-- Grid for works -->
       <!-- <div class="w3-row-padding" style="margin:0 -16px">

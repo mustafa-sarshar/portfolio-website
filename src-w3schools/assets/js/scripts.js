@@ -10,7 +10,20 @@
  */
 window.addEventListener("load", () => {
   const btnSendMessageEl = document.getElementById("btnSendMessage");
-  const slideShowWorksEl = document.getElementById("slide-show-works");
+  const slideShowWorksEl = document.getElementById("tabs-works__web-dev");
+  const btnTabsWorksWebDev = document.getElementById("btn-tabs-works__web-dev");
+  const btnTabsWorksAI = document.getElementById("btn-tabs-works__ai");
+  const btnTabsWorksRD = document.getElementById("btn-tabs-works__r-and-d");
+
+  btnTabsWorksWebDev.addEventListener("click", (evt) => {
+    onClickTabsWorks("tabs-works-items", "tabs-works__web-dev");
+  });
+  btnTabsWorksAI.addEventListener("click", (evt) => {
+    onClickTabsWorks("tabs-works-items", "tabs-works__ai");
+  });
+  btnTabsWorksRD.addEventListener("click", (evt) => {
+    onClickTabsWorks("tabs-works-items", "tabs-works__r-and-d");
+  });
 
   /**
    * All my works
@@ -224,6 +237,15 @@ window.addEventListener("load", () => {
 
     slideShowWorksEl.append(btnPrevEl);
     slideShowWorksEl.append(btnNextEl);
+  }
+
+  function onClickTabsWorks(tabId, tabItemId) {
+    var i;
+    var x = document.getElementsByClassName(tabId);
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabItemId).style.display = "block";
   }
 
   /**
