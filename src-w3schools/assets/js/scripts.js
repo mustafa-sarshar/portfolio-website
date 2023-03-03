@@ -199,7 +199,6 @@ window.addEventListener("load", () => {
 
   btnSendMessageEl.addEventListener("click", (evt) => {
     // evt.preventDefault();
-    // console.log(formContactEl);
   });
 
   // Init slides
