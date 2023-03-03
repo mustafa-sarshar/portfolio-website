@@ -416,4 +416,5 @@ window.addEventListener("load", () => {
   });
 
   initWorks();
+  updateNavBar();
 });
