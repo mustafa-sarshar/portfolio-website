@@ -163,6 +163,7 @@ h6 {
 }
 .works-item__description {
   margin-bottom: 3rem;
+  text-align: justify;
 }
 .works-item__image {
   margin: 0 auto;
