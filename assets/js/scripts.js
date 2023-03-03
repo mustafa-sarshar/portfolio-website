@@ -210,8 +210,8 @@ window.addEventListener("load", () => {
     btnPrevEl.classList.add("w3-button", "w3-black", "w3-display-left");
     btnNextEl.classList.add("w3-button", "w3-black", "w3-display-right");
 
-    btnPrevEl.innerHTML = "&#10094; previous project";
-    btnNextEl.innerHTML = "next project &#10095;";
+    btnPrevEl.innerHTML = "&#10094;";
+    btnNextEl.innerHTML = "&#10095;";
 
     const myWorksSlideShow = w3.slideshow(".works-item", 15000);
 
