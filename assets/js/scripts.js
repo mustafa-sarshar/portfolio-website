@@ -230,16 +230,29 @@ window.addEventListener("load", () => {
   }
 
   function activateNavbarItem(itemId) {
-    const navbarItems = document.getElementsByClassName("w3-bar-item");
+    const navbarItemsSide =
+      document.getElementsByClassName("w3-bar-item__side");
+    const navbarItemsTop = document.getElementsByClassName("w3-bar-item__top");
 
-    for (let i = 0; i < navbarItems.length; i++) {
-      const navbarItemId = navbarItems[i].href.split("#")[1];
+    for (let i = 0; i < navbarItemsSide.length; i++) {
+      const navbarItemId = navbarItemsSide[i].href.split("#")[1];
       if (navbarItemId === itemId) {
-        navbarItems[i].classList.add("w3-black", "w3-hover-white");
-        navbarItems[i].classList.remove("w3-hover-black");
+        navbarItemsSide[i].classList.add("w3-black");
+        navbarItemsSide[i].classList.remove("w3-hover-black");
       } else {
-        navbarItems[i].classList.remove("w3-black", "w3-hover-white");
-        navbarItems[i].classList.add("w3-hover-black");
+        navbarItemsSide[i].classList.remove("w3-black");
+        navbarItemsSide[i].classList.add("w3-hover-black");
+      }
+    }
+
+    for (let i = 0; i < navbarItemsTop.length; i++) {
+      const navbarItemId = navbarItemsTop[i].href.split("#")[1];
+      if (navbarItemId === itemId) {
+        navbarItemsTop[i].classList.add("navbar-items__top--active");
+        navbarItemsTop[i].classList.remove("navbar-items__top--deactive");
+      } else {
+        navbarItemsTop[i].classList.remove("navbar-items__top--active");
+        navbarItemsTop[i].classList.add("navbar-items__top--deactive");
       }
     }
   }

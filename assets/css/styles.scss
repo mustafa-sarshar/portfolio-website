@@ -274,3 +274,19 @@ h6 {
   display: table;
   clear: both;
 }
+
+.navbar {
+  &-items {
+    &__top {
+      &--active {
+        background-color: #dedddd !important;
+        color: black;
+        font-weight: bold;
+      }
+
+      &--deactive {
+        font-style: italic;
+      }
+    }
+  }
+}
