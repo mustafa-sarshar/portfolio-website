@@ -9,6 +9,11 @@
  * @event
  */
 window.addEventListener("load", () => {
+  let windowHeight = window.innerHeight;
+  const divHomeEl = document.getElementById("home");
+  const divAboutEl = document.getElementById("about");
+  const divWorksEl = document.getElementById("works");
+  const divContactEl = document.getElementById("contact");
   const btnSendMessageEl = document.getElementById("btnSendMessage");
   const slideShowWorksEl = document.getElementById("slide-show-works");
 
@@ -184,10 +189,62 @@ window.addEventListener("load", () => {
     },
   ];
 
-  btnSendMessageEl.addEventListener("click", (evt) => {
-    // evt.preventDefault();
-    // console.log(formContactEl);
+  addEventListener("resize", (evt) => {
+    windowHeight = window.innerHeight;
+    console.log("SIZE CHANGED", windowHeight);
+    updateNavBar();
   });
+
+  window.addEventListener("scroll", (evt) => {
+    windowHeight = window.innerHeight;
+    console.log("SCROLLED", windowHeight);
+    updateNavBar();
+  });
+
+  function updateNavBar() {
+    const divHomeOffsets = divHomeEl.getBoundingClientRect();
+    const divAboutOffsets = divAboutEl.getBoundingClientRect();
+    const divWorksOffsets = divWorksEl.getBoundingClientRect();
+    const divContactOffsets = divContactEl.getBoundingClientRect();
+
+    if (
+      divHomeOffsets.top < windowHeight / 2 &&
+      divHomeOffsets.height + divHomeOffsets.top > divHomeOffsets.height / 2
+    ) {
+      activateNavbarItem("home");
+    } else if (
+      divAboutOffsets.top < windowHeight / 2 &&
+      divAboutOffsets.height + divAboutOffsets.top > divAboutOffsets.height / 2
+    ) {
+      activateNavbarItem("about");
+    } else if (
+      divWorksOffsets.top < windowHeight / 2 &&
+      divWorksOffsets.height + divWorksOffsets.top > divWorksOffsets.height / 2
+    ) {
+      activateNavbarItem("works");
+    } else if (
+      divContactOffsets.top < windowHeight / 2 &&
+      divContactOffsets.height + divContactOffsets.top >
+        divContactOffsets.height / 2
+    ) {
+      activateNavbarItem("contact");
+    }
+  }
+
+  function activateNavbarItem(itemId) {
+    const navbarItems = document.getElementsByClassName("w3-bar-item");
+    console.log(navbarItems);
+    for (let i = 0; i < navbarItems.length; i++) {
+      const navbarItemId = navbarItems[i].href.split("#")[1];
+      if (navbarItemId === itemId) {
+        navbarItems[i].classList.add("w3-black", "w3-hover-white");
+        navbarItems[i].classList.remove("w3-hover-black");
+      } else {
+        navbarItems[i].classList.remove("w3-black", "w3-hover-white");
+        navbarItems[i].classList.add("w3-hover-black");
+      }
+    }
+  }
 
   // Init slides
   /**
@@ -354,6 +411,11 @@ window.addEventListener("load", () => {
 
     return divLinksEl;
   }
+
+  btnSendMessageEl.addEventListener("click", (evt) => {
+    // evt.preventDefault();
+    // console.log(formContactEl);
+  });
 
   initWorks();
 });
