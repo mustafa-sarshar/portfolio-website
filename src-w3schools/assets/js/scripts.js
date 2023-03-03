@@ -191,13 +191,11 @@ window.addEventListener("load", () => {
 
   addEventListener("resize", (evt) => {
     windowHeight = window.innerHeight;
-    console.log("SIZE CHANGED", windowHeight);
     updateNavBar();
   });
 
   window.addEventListener("scroll", (evt) => {
     windowHeight = window.innerHeight;
-    console.log("SCROLLED", windowHeight);
     updateNavBar();
   });
 
@@ -233,7 +231,7 @@ window.addEventListener("load", () => {
 
   function activateNavbarItem(itemId) {
     const navbarItems = document.getElementsByClassName("w3-bar-item");
-    console.log(navbarItems);
+
     for (let i = 0; i < navbarItems.length; i++) {
       const navbarItemId = navbarItems[i].href.split("#")[1];
       if (navbarItemId === itemId) {
