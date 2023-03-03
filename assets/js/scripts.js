@@ -63,7 +63,7 @@ window.addEventListener("load", () => {
         "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-4.png?raw=true",
       ],
       techUsed: [
-        "React +18",
+        "React JS",
         "React Bootstrap",
         "React Redux",
         "React Toastify",
@@ -93,7 +93,7 @@ window.addEventListener("load", () => {
         "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-5.png?raw=true",
       ],
       techUsed: [
-        "React.js",
+        "React JS",
         "AWS lambda",
         "TDD/BDD methodology",
         "Google Calendar API",
@@ -171,7 +171,7 @@ window.addEventListener("load", () => {
       description:
         "A backend for interacting with Apis. This web application will provide users with the access to information about different movies, directors, actors, and genres through Api. Users will be able to sign up, update their personal information, and create a list of their favorite movies.",
       screenShots: null,
-      techUsed: ["Node.js", "Express.js", "MongoDB"],
+      techUsed: ["Node JS", "Express JS", "MongoDB"],
       links: [
         {
           title: "Source code",
