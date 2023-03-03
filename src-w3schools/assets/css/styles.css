@@ -211,4 +211,13 @@ h6 {
   content: "";
   display: table;
   clear: both;
+}
+
+.navbar-items__top--active {
+  background-color: #dedddd !important;
+  color: black;
+  font-weight: bold;
+}
+.navbar-items__top--deactive {
+  font-style: italic;
 }/*# sourceMappingURL=styles.css.map */
