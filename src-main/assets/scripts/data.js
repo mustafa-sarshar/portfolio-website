@@ -143,6 +143,31 @@ export const MY_WORKS = [
   },
   {
     _id: "myWorksItem6",
+    title: "Signature Maker",
+    description:
+      "A simple web application to draw images, shapes and specially signatures in web browser as well as in mobile devices.",
+    screenShots: [
+      "https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-1.png?raw=true",
+      "https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-2.png?raw=true",
+    ],
+    techUsed: ["HTML 5", "CSS 3", "JavaScript", "Webpack"],
+    links: [
+      {
+        title: "Source code",
+        href: "https://github.com/mustafa-sarshar/signature-maker",
+      },
+      {
+        title: "Website",
+        href: "https://mustafa-sarshar.github.io/signature-maker/",
+      },
+      {
+        title: "Documentation",
+        href: "https://github.com/mustafa-sarshar/signature-maker/tree/main/docs",
+      },
+    ],
+  },
+  {
+    _id: "myWorksItem7",
     title: "Movie Api",
     description:
       "A backend for interacting with Apis. This web application will provide users with the access to information about different movies, directors, actors, and genres through Api. Users will be able to sign up, update their personal information, and create a list of their favorite movies.",
