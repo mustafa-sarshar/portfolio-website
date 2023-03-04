@@ -4,9 +4,7 @@
  * @description - It hold all the scripts for the website.
  */
 
-import "./assets/styles/w3.css";
 import "./assets/styles/main.scss";
-
 import { MY_WORKS } from "./assets/scripts/data";
 
 /**
