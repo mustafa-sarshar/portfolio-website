@@ -290,3 +290,12 @@ h6 {
     }
   }
 }
+
+.theme {
+  &-reverse {
+    div {
+      // background-color: invert(1) hue-rotate(180deg) !important;
+      filter: invert(1) hue-rotate(180deg) !important;
+    }
+  }
+}

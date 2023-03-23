@@ -13,6 +13,8 @@ import { MY_WORKS } from "./assets/scripts/data";
  */
 window.addEventListener("load", () => {
   let windowHeight = window.innerHeight;
+  const appBodyEl = document.getElementById("app-body");
+  const btnToggleThemeEl = document.getElementById("btn-toggle-theme");
   const divHomeEl = document.getElementById("home");
   const divAboutEl = document.getElementById("about");
   const divWorksEl = document.getElementById("works");
@@ -20,15 +22,53 @@ window.addEventListener("load", () => {
   const btnSendMessageEl = document.getElementById("btnSendMessage");
   const slideShowWorksEl = document.getElementById("slide-show-works");
 
-  addEventListener("resize", (evt) => {
+  addEventListener("resize", (_) => {
     windowHeight = window.innerHeight;
     updateNavBar();
   });
 
-  window.addEventListener("scroll", (evt) => {
+  window.addEventListener("scroll", (_) => {
     windowHeight = window.innerHeight;
     updateNavBar();
   });
+
+  btnToggleThemeEl.addEventListener("click", (_) => {
+    const theme = localStorage.getItem("theme") || null;
+    if (theme === "light") {
+      updateAppTheme("dark");
+    } else {
+      updateAppTheme("light");
+    }
+  });
+
+  function updateAppTheme(theme) {
+    if (theme === "dark") {
+      appBodyEl.classList.remove("theme-reverse");
+      localStorage.setItem("theme", "dark");
+      btnToggleThemeEl.innerHTML = btnToggleThemeEl.textContent = "Light Mode";
+      updatePageElementsThemeColor("dark");
+      console.log("Theme Dark");
+    } else {
+      appBodyEl.classList.add("theme-reverse");
+      localStorage.setItem("theme", "light");
+      btnToggleThemeEl.innerHTML = btnToggleThemeEl.textContent = "Dark Mode";
+      updatePageElementsThemeColor("light");
+      console.log("Theme Light");
+    }
+  }
+
+  function updatePageElementsThemeColor(theme) {
+    const appElements = document.getElementsByClassName("w3-black");
+    for (let i = 0; i < appElements.length; i++) {
+      if (theme === "dark") {
+        appElements[i].classList.remove("w3-white");
+        appElements[i].classList.add("w3-black");
+      } else {
+        appElements[i].classList.remove("w3-black");
+        appElements[i].classList.add("w3-white");
+      }
+    }
+  }
 
   function updateNavBar() {
     const divHomeOffsets = divHomeEl.getBoundingClientRect();
@@ -112,12 +152,12 @@ window.addEventListener("load", () => {
     btnPrevEl.innerHTML = "&#10094;";
     btnNextEl.innerHTML = "&#10095;";
 
-    const myWorksSlideShow = w3.slideshow(".works-item", 15000);
+    const myWorksSlideShow = w3.slideshow(".works-item", 25000);
 
-    btnPrevEl.addEventListener("click", () => {
+    btnPrevEl.addEventListener("click", (_) => {
       myWorksSlideShow.previous();
     });
-    btnNextEl.addEventListener("click", () => {
+    btnNextEl.addEventListener("click", (_) => {
       myWorksSlideShow.next();
     });
 
@@ -254,11 +294,13 @@ window.addEventListener("load", () => {
     return divLinksEl;
   }
 
-  btnSendMessageEl.addEventListener("click", (evt) => {
+  btnSendMessageEl.addEventListener("click", (_) => {
     // evt.preventDefault();
     // console.log(formContactEl);
   });
 
+  localStorage.setItem("theme", "dark");
   initWorks();
   updateNavBar();
+  updateAppTheme("dark");
 });

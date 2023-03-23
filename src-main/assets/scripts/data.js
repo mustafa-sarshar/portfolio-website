@@ -4,6 +4,44 @@
  */
 export const MY_WORKS = [
   {
+    _id: "myWorksItem0",
+    title: "Musto Task Reminder",
+    description:
+      "A web-application for saving and documenting daily tasks. To build this web-application Angular framework is used, and the app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices.",
+    screenShots: [
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-1.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-2.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-3.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-4.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-5.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-6.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-7.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-8.png?raw=true",
+    ],
+    techUsed: [
+      "Angular",
+      "TypeScript",
+      "Ngx-Translate",
+      "Firebase (read time database)",
+      "RESTFul Api",
+      "PWA",
+    ],
+    links: [
+      {
+        title: "Source code",
+        href: "https://github.com/mustafa-sarshar/musto-task-reminder",
+      },
+      {
+        title: "Website",
+        href: "https://mustafa-sarshar.github.io/musto-task-reminder/",
+      },
+      {
+        title: "Documentation",
+        href: "https://github.com/mustafa-sarshar/musto-task-reminder/tree/main/docs",
+      },
+    ],
+  },
+  {
     _id: "myWorksItem1",
     title: "Musto Flix (Angular)",
     description:
@@ -16,7 +54,7 @@ export const MY_WORKS = [
       "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-5.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-6.png?raw=true",
     ],
-    techUsed: ["Angular", "TypeScript"],
+    techUsed: ["Angular", "TypeScript", "RESTFul Api"],
     links: [
       {
         title: "Source code",
