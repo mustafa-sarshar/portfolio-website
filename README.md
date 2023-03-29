@@ -53,6 +53,6 @@
 
 - HTML 5
 - CSS 3 (SCSS)
-- w3schools CSS
+- W3Schools CSS
 - JavaScript
 - Webpack
