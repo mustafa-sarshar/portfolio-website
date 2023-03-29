@@ -67,6 +67,10 @@ module.exports = {
         { from: "src-main/assets/images", to: "assets/images" },
         { from: "src-main/assets/styles/w3.css", to: "assets/styles/w3.css" },
         { from: "src-main/assets/scripts/w3.js", to: "assets/scripts/w3.js" },
+        {
+          from: "src-main/assets/files/Mustafa-Sarshar-Resume.pdf",
+          to: "assets/files/Mustafa-Sarshar-Resume.pdf",
+        },
       ],
     }),
     new HtmlPlugin({
