@@ -7,6 +7,9 @@
 import "./assets/styles/main.scss";
 import { MY_WORKS } from "./assets/scripts/data";
 
+const CAROUSEL_WORK_ITEM_TIMEOUT_DURATION = 2500;
+const CAROUSEL_WORKS_TIMEOUT_DURATION = 30000;
+
 /**
  * It loads all the functions that will run after the page is fully loaded.
  * @event
@@ -135,11 +138,14 @@ window.addEventListener("load", () => {
    */
   function initWorks() {
     for (let i = 0; i < MY_WORKS.length; i++) {
-      const worksItemEl = generateWorkItem(MY_WORKS[i]);
+      const worksItemEl = generateWorkItem(i, MY_WORKS[i]);
 
       slideShowWorksEl.append(worksItemEl);
       if (MY_WORKS[i].screenShots) {
-        w3.slideshow("." + MY_WORKS[i]._id + "-carousel", 2500);
+        w3.slideshow(
+          "." + MY_WORKS[i]._id + "-carousel",
+          CAROUSEL_WORK_ITEM_TIMEOUT_DURATION
+        );
       }
     }
 
@@ -152,7 +158,10 @@ window.addEventListener("load", () => {
     btnPrevEl.innerHTML = "&#10094;";
     btnNextEl.innerHTML = "&#10095;";
 
-    const myWorksSlideShow = w3.slideshow(".works-item", 25000);
+    const myWorksSlideShow = w3.slideshow(
+      ".works-item",
+      CAROUSEL_WORKS_TIMEOUT_DURATION
+    );
 
     btnPrevEl.addEventListener("click", (_) => {
       myWorksSlideShow.previous();
@@ -171,14 +180,10 @@ window.addEventListener("load", () => {
    * @param {object} workItem
    * @returns {HTMLDivElement}
    */
-  function generateWorkItem({
-    _id,
-    title,
-    description,
-    screenShots,
-    techUsed,
-    links,
-  }) {
+  function generateWorkItem(
+    itemIndex,
+    { _id, title, description, screenShots, techUsed, links }
+  ) {
     const divWorkItemEl = document.createElement("div");
     const txtWorkItemTitleEl = document.createElement("h3");
     const lineDividerEl = document.createElement("hr");
@@ -187,7 +192,7 @@ window.addEventListener("load", () => {
     const txtWorkItemDescriptionEl = document.createElement("p");
     const divClearEl = document.createElement("div");
 
-    txtWorkItemTitleEl.textContent = title;
+    txtWorkItemTitleEl.textContent = `${itemIndex + 1}. ${title}`;
     txtWorkItemTitleEl.classList.add("works-item__title");
     txtWorkItemDescriptionEl.textContent = description;
     txtWorkItemDescriptionEl.classList.add("works-item__description");

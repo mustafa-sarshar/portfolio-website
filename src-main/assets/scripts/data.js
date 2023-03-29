@@ -17,14 +17,19 @@ export const MY_WORKS = [
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-6.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-7.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-8.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-9.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-10.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-11.png?raw=true",
+      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-12.png?raw=true",
     ],
     techUsed: [
       "Angular",
-      "TypeScript",
       "Ngx-Translate",
-      "Firebase (read time database)",
+      "Google Firebase Real Time Database",
+      "Google Firebase Authentication (Email/Password)",
       "RESTFul Api",
-      "PWA",
+      "Progressive Web Application (PWA)",
+      "TypeScript",
     ],
     links: [
       {
@@ -116,6 +121,7 @@ export const MY_WORKS = [
       "AWS lambda",
       "TDD/BDD methodology",
       "Google Calendar API",
+      "Progressive Web Application (PWA)",
     ],
     links: [
       {
@@ -163,7 +169,7 @@ export const MY_WORKS = [
     ],
     techUsed: [
       "HTML 5",
-      "CSS 3 (SASS)",
+      "CSS 3 (SCSS)",
       "JavaScript",
       "jQuery",
       "Bootstrap v3",
@@ -188,7 +194,7 @@ export const MY_WORKS = [
       "https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-1.png?raw=true",
       "https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-2.png?raw=true",
     ],
-    techUsed: ["HTML 5", "CSS 3", "JavaScript", "Webpack"],
+    techUsed: ["HTML 5", "CSS 3 (SCSS)", "JavaScript", "Webpack"],
     links: [
       {
         title: "Source code",
