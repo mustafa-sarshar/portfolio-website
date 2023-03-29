@@ -37,6 +37,11 @@
  * @event
  */
 window.addEventListener("load", () => {
+  let windowHeight = window.innerHeight;
+  const divHomeEl = document.getElementById("home");
+  const divAboutEl = document.getElementById("about");
+  const divWorksEl = document.getElementById("works");
+  const divContactEl = document.getElementById("contact");
   const btnSendMessageEl = document.getElementById("btnSendMessage");
   const slideShowWorksEl = document.getElementById("slide-show-works");
 
@@ -86,7 +91,7 @@ window.addEventListener("load", () => {
         "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-4.png?raw=true",
       ],
       techUsed: [
-        "React +18",
+        "React JS",
         "React Bootstrap",
         "React Redux",
         "React Toastify",
@@ -116,7 +121,7 @@ window.addEventListener("load", () => {
         "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-5.png?raw=true",
       ],
       techUsed: [
-        "React.js",
+        "React JS",
         "AWS lambda",
         "TDD/BDD methodology",
         "Google Calendar API",
@@ -194,7 +199,7 @@ window.addEventListener("load", () => {
       description:
         "A backend for interacting with Apis. This web application will provide users with the access to information about different movies, directors, actors, and genres through Api. Users will be able to sign up, update their personal information, and create a list of their favorite movies.",
       screenShots: null,
-      techUsed: ["Node.js", "Express.js", "MongoDB"],
+      techUsed: ["Node JS", "Express JS", "MongoDB"],
       links: [
         {
           title: "Source code",
@@ -212,10 +217,73 @@ window.addEventListener("load", () => {
     },
   ];
 
-  btnSendMessageEl.addEventListener("click", (evt) => {
-    // evt.preventDefault();
-    // console.log(formContactEl);
+  addEventListener("resize", (evt) => {
+    windowHeight = window.innerHeight;
+    updateNavBar();
   });
+
+  window.addEventListener("scroll", (evt) => {
+    windowHeight = window.innerHeight;
+    updateNavBar();
+  });
+
+  function updateNavBar() {
+    const divHomeOffsets = divHomeEl.getBoundingClientRect();
+    const divAboutOffsets = divAboutEl.getBoundingClientRect();
+    const divWorksOffsets = divWorksEl.getBoundingClientRect();
+    const divContactOffsets = divContactEl.getBoundingClientRect();
+
+    if (
+      divHomeOffsets.top &lt; windowHeight / 2 &amp;&amp;
+      divHomeOffsets.height + divHomeOffsets.top > divHomeOffsets.height / 2
+    ) {
+      activateNavbarItem("home");
+    } else if (
+      divAboutOffsets.top &lt; windowHeight / 2 &amp;&amp;
+      divAboutOffsets.height + divAboutOffsets.top > divAboutOffsets.height / 2
+    ) {
+      activateNavbarItem("about");
+    } else if (
+      divWorksOffsets.top &lt; windowHeight / 2 &amp;&amp;
+      divWorksOffsets.height + divWorksOffsets.top > divWorksOffsets.height / 2
+    ) {
+      activateNavbarItem("works");
+    } else if (
+      divContactOffsets.top &lt; windowHeight / 2 &amp;&amp;
+      divContactOffsets.height + divContactOffsets.top >
+        divContactOffsets.height / 2
+    ) {
+      activateNavbarItem("contact");
+    }
+  }
+
+  function activateNavbarItem(itemId) {
+    const navbarItemsSide =
+      document.getElementsByClassName("w3-bar-item__side");
+    const navbarItemsTop = document.getElementsByClassName("w3-bar-item__top");
+
+    for (let i = 0; i &lt; navbarItemsSide.length; i++) {
+      const navbarItemId = navbarItemsSide[i].href.split("#")[1];
+      if (navbarItemId === itemId) {
+        navbarItemsSide[i].classList.add("w3-black");
+        navbarItemsSide[i].classList.remove("w3-hover-black");
+      } else {
+        navbarItemsSide[i].classList.remove("w3-black");
+        navbarItemsSide[i].classList.add("w3-hover-black");
+      }
+    }
+
+    for (let i = 0; i &lt; navbarItemsTop.length; i++) {
+      const navbarItemId = navbarItemsTop[i].href.split("#")[1];
+      if (navbarItemId === itemId) {
+        navbarItemsTop[i].classList.add("navbar-items__top--active");
+        navbarItemsTop[i].classList.remove("navbar-items__top--deactive");
+      } else {
+        navbarItemsTop[i].classList.remove("navbar-items__top--active");
+        navbarItemsTop[i].classList.add("navbar-items__top--deactive");
+      }
+    }
+  }
 
   // Init slides
   /**
@@ -228,7 +296,7 @@ window.addEventListener("load", () => {
 
       slideShowWorksEl.append(worksItemEl);
       if (MY_WORKS[i].screenShots) {
-        w3.slideshow("." + MY_WORKS[i]._id + "-carousel", 3000);
+        w3.slideshow("." + MY_WORKS[i]._id + "-carousel", 2500);
       }
     }
 
@@ -241,7 +309,7 @@ window.addEventListener("load", () => {
     btnPrevEl.innerHTML = "&amp;#10094;";
     btnNextEl.innerHTML = "&amp;#10095;";
 
-    const myWorksSlideShow = w3.slideshow(".works-item", 0);
+    const myWorksSlideShow = w3.slideshow(".works-item", 15000);
 
     btnPrevEl.addEventListener("click", () => {
       myWorksSlideShow.previous();
@@ -383,7 +451,13 @@ window.addEventListener("load", () => {
     return divLinksEl;
   }
 
+  btnSendMessageEl.addEventListener("click", (evt) => {
+    // evt.preventDefault();
+    // console.log(formContactEl);
+  });
+
   initWorks();
+  updateNavBar();
 });
 </code></pre>
         </article>
@@ -401,7 +475,7 @@ window.addEventListener("load", () => {
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Mon Feb 27 2023 22:27:18 GMT+0100 (Central European Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Wed Mar 29 2023 15:56:46 GMT+0200 (Central European Summer Time)
 </footer>
 
 <script> prettyPrint(); </script>

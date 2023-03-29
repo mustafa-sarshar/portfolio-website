@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
-    "jsdoc": "jsdoc -c jsdoc.json",
+    "docs": "jsdoc -c jsdoc.json",
     "deploy-legacy": "gh-pages -d src-legacy",
     "deploy-w3s": "gh-pages -d src-w3schools",
     "deploy": "gh-pages -d dist"
