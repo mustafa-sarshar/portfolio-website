@@ -52,5 +52,7 @@
 ## TECHNOLOGIES USED
 
 - HTML 5
-- CSS 3 (w3schools)
+- CSS 3 (SCSS)
+- w3schools CSS
 - JavaScript
+- Webpack
