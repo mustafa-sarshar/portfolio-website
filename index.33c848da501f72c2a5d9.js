@@ -10,16 +10,16 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "MY_WORKS": () => (/* binding */ MY_WORKS)
+/* harmony export */   "MY_PROJECTS": () => (/* binding */ MY_PROJECTS)
 /* harmony export */ });
 /**
  * All my works
  * @constant
  */
-const MY_WORKS = [{
+const MY_PROJECTS = [{
   _id: "myWorksItem0",
   title: "Musto Task Reminder",
-  description: "A web-application for saving and documenting daily tasks. To build this web-application Angular framework is used, and the app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices.",
+  description: "This project aimed at developing a web-application for saving and documenting daily tasks. To build this web-application Angular framework is used. The app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices. User can create multiple tasks and set a reminder for each if wishes. Moreover, ",
   screenShots: ["https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-1.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-2.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-3.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-4.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-5.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-6.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-7.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-8.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-9.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-10.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-11.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-12.png?raw=true"],
   techUsed: ["Angular", "Ngx-Translate", "Google Firebase Real Time Database", "Google Firebase Authentication (Email/Password)", "RESTFul Api", "Progressive Web Application (PWA)", "TypeScript"],
   links: [{
@@ -35,7 +35,7 @@ const MY_WORKS = [{
 }, {
   _id: "myWorksItem1",
   title: "Musto Flix (Angular)",
-  description: "A simple implementation of Angular framework to build a web-app for movie fans, that communicates with the backend server for fetching data. Users can register themselves and set a favorites list of the available movies for themselves. They can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s).",
+  description: "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MEAN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
   screenShots: ["https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-1.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-2.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-3.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-4.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-5.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-6.png?raw=true"],
   techUsed: ["Angular", "TypeScript", "RESTFul Api"],
   links: [{
@@ -51,9 +51,9 @@ const MY_WORKS = [{
 }, {
   _id: "myWorksItem2",
   title: "Musto Flix (React)",
-  description: "A simple implementation of React.js library (framework) to build a web-app for movie fans, that communicates with the backend server for fetching data. Users can register themselves and set a favorites list of the available movies for themselves. They can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s).",
+  description: "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MERN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
   screenShots: ["https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-2.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-3.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-4.png?raw=true"],
-  techUsed: ["React JS", "React Bootstrap", "React Redux", "React Toastify", "Parcel"],
+  techUsed: ["React JS", "React Redux", "React Bootstrap", "React Toastify", "Parcel"],
   links: [{
     title: "Source code",
     href: "https://github.com/mustafa-sarshar/musto-flix-react/"
@@ -64,7 +64,7 @@ const MY_WORKS = [{
 }, {
   _id: "myWorksItem3",
   title: "Musto Easy Meet",
-  description: "A web-app for tech guys and developers worldwide. This is a web-app for finding events, helping web-developers to meet each other and get connected easier. This web-app is also Progressive Web App (PWA) and can be installed locally on any device as well as run in offline-mode, when the internet is not accessible. The data is fetched via Google Calendar API from a Google Calendar (Calendar ID: fullstackwebdev@careerfoundry.com).",
+  description: "This project was developed to help tech guys and developers worldwide in finding tech events, and helping them to meet each other and get connected easier. The web-app is a Progressive Web App (PWA) and can be installed locally on any device as well as run in offline-mode, when the internet is not accessible. The data is fetched via Google Calendar API from a Google Calendar (Calendar ID: fullstackwebdev@careerfoundry.com). The app offers the user different features, such as searching an event by city name. The user can also learn about which events are more popular and how many events are taking place in different cities. To use the app, the use must have a GMAIL account and must login with it to use all the features.",
   screenShots: ["https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-1.png?raw=true", "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-2.png?raw=true", "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-3.png?raw=true", "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-4.png?raw=true", "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-5.png?raw=true"],
   techUsed: ["React JS", "AWS lambda", "TDD/BDD methodology", "Google Calendar API", "Progressive Web Application (PWA)"],
   links: [{
@@ -77,7 +77,7 @@ const MY_WORKS = [{
 }, {
   _id: "myWorksItem4",
   title: "Musto Friendly Chat",
-  description: "An implementation of React Native for developing a simple Chat application for mobile devices (iOS/Android). The backend is developed using Google Firestore.",
+  description: "The main goal of this project was to develop a mobile app using React Native, for communication purposes via MMS. The end product can be installed on both Android and iOS devices. Moreover, to fully guarantee the data security as well as high performance, the backend was developed using Google Firestore. The app has different features, for example the user can create a personalized user profile change the theme color of the app. User can also send text, image, and even his geolocation to the chatroom. Moreover, user can generate any number of chatroom as much as he wants, and give each a unique ID to make it a private one.",
   screenShots: ["https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-1.png?raw=true", "https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-2.png?raw=true", "https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-3.png?raw=true", "https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-4.png?raw=true"],
   techUsed: ["React-Native", "React-Native-Gifted-Chat", "Expo", "Firebase"],
   links: [{
@@ -87,23 +87,39 @@ const MY_WORKS = [{
     title: "Video",
     href: "https://youtu.be/vFDsjfluJ_c"
   }]
-}, {
-  _id: "myWorksItem5",
-  title: "Pokemon (Pocket Monsters) cards",
-  description: "A simple Web-App for kids who are a fan of Pokemon characters. The app fetches the data about Pokemon from pokeapi.co",
-  screenShots: ["https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true", "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true", "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true"],
-  techUsed: ["HTML 5", "CSS 3 (SCSS)", "JavaScript", "jQuery", "Bootstrap v3"],
-  links: [{
-    title: "Source code",
-    href: "https://github.com/mustafa-sarshar/pokemon-cards/"
-  }, {
-    title: "Website",
-    href: "https://mustafa-sarshar.github.io/pokemon-cards/"
-  }]
-}, {
+},
+// {
+//   _id: "myWorksItem5",
+//   title: "Pokemon (Pocket Monsters) cards",
+//   description:
+//     "This project was developed with the purpose of helping kids who are a fan of Pokemon characters, to play with Pokemon cards. The app fetches the information of Pokemon from pokeapi.co. ",
+//   screenShots: [
+//     "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true",
+//     "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true",
+//     "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true",
+//   ],
+//   techUsed: [
+//     "HTML 5",
+//     "CSS 3 (SCSS)",
+//     "JavaScript",
+//     "jQuery",
+//     "Bootstrap v3",
+//   ],
+//   links: [
+//     {
+//       title: "Source code",
+//       href: "https://github.com/mustafa-sarshar/pokemon-cards/",
+//     },
+//     {
+//       title: "Website",
+//       href: "https://mustafa-sarshar.github.io/pokemon-cards/",
+//     },
+//   ],
+// },
+{
   _id: "myWorksItem6",
   title: "Signature Maker",
-  description: "A simple web application to draw images, shapes and specially signatures in web browser as well as in mobile devices.",
+  description: "This projects was aimed at helping users in drawing images, shapes and specially signatures in web browser as well as in mobile devices, for free. Moreover, the web-app is highly responsive to all devices. The user can change the drawing settings and download the drawing in .png format. The app's name is Signature Maker, but it can for sure do more that just making a signature 😊.",
   screenShots: ["https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-1.png?raw=true", "https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-2.png?raw=true"],
   techUsed: ["HTML 5", "CSS 3 (SCSS)", "JavaScript", "Webpack"],
   links: [{
@@ -119,7 +135,7 @@ const MY_WORKS = [{
 }, {
   _id: "myWorksItem7",
   title: "Movie Api",
-  description: "A backend for interacting with Apis. This web application will provide users with the access to information about different movies, directors, actors, and genres through Api. Users will be able to sign up, update their personal information, and create a list of their favorite movies.",
+  description: "The main goal of this project was to develop a backend server for CRUD operations using RESTFul APIs. The web application provides users with the access to information about different movies, directors, actors, and genres through API. Users have different features, including authentication (sign up and sign in), updating user profile, and creating a list of their favorite movies. The app serves as the backend for two other projects, 1) Musto Flix (Angular), and 2) Musto Flix (React). A non-relational database, named MongoDB is used to store and manipulated the movie data as well as the user's information.",
   screenShots: null,
   techUsed: ["Node JS", "Express JS", "MongoDB"],
   links: [{
@@ -155,7 +171,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* Naming Convention:\n\tBlock Element Modifier (BEM):\n\t\ti.e Block__Element--Modifier\n*/\n/* ---------------- V A R I A B L E S ---------------- */\n/* ------------------ F U N C T I O N S ------------------ */\nbody,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.w3 {\n  /* Set the width of the sidebar to 120px */\n}\n.w3-row -padding img {\n  margin-bottom: 12px;\n}\n.w3-sidebar {\n  width: 120px;\n  background: #222;\n}\n\n/* Add a left margin to the \"page content\" that matches the width of the sidebar (120px) */\n#main {\n  margin-left: 120px;\n  /* Remove margins from \"page content\" on small screens */\n}\n@media only screen and (max-width: 600px) {\n  #main {\n    margin-left: 0;\n  }\n}\n\n.berlin-animation {\n  transition: all 0.5s ease;\n}\n.berlin-animation:hover {\n  filter: brightness(70%);\n}\n.berlin-animation__cloud-front {\n  /* animation: 30s change-position__cloud infinite alternate ease-in-out; */\n  animation-duration: 30s;\n  animation-name: change-position__cloud;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__cloud-back {\n  /* animation: 34s change-position__cloud--reverse infinite alternate ease-in-out; */\n  animation-duration: 34s;\n  animation-name: change-position__cloud--reverse;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__grass {\n  /* animation: 34s opacity-change__grass infinite alternate linear; */\n  animation-duration: 1s;\n  animation-name: opacity-change__grass;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__horse-right {\n  transform-origin: center center;\n  /* animation: 34s brightness-change__horse infinite alternate linear; */\n  animation-duration: 2s;\n  animation-name: brightness-change__horse;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__horse-left {\n  transform-origin: center center;\n  /* animation: 34s brightness-change__horse infinite alternate linear; */\n  animation-duration: 2s;\n  animation-name: brightness-change__horse;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__tower-bubble {\n  /* animation: 34s blur-change__bubble infinite alternate linear; */\n  animation-duration: 2s;\n  animation-name: blur-change__bubble;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in;\n}\n.berlin-animation__container {\n  width: 50%;\n  margin: auto;\n}\n@media only screen and (max-width: 768px) {\n  .berlin-animation__container {\n    width: 100%;\n  }\n}\n.berlin-animation__container-title {\n  text-align: center;\n  border-bottom: 1px solid rgba(128, 128, 128, 0.4);\n}\n.berlin-animation__container-title a {\n  color: white;\n  text-decoration: none;\n  transition: all 0.5s ease-in-out;\n}\n.berlin-animation__container-title a:hover {\n  font-weight: bold;\n}\n.berlin-animation__container-title a:link, .berlin-animation__container-title a:visited, .berlin-animation__container-title a:focus, .berlin-animation__container-title a:hover, .berlin-animation__container-title a:active {\n  color: white !important;\n}\n\n@keyframes opacity-change__grass {\n  0% {\n    opacity: 0.5;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@keyframes brightness-change__horse {\n  0% {\n    filter: brightness(1%);\n  }\n  100% {\n    filter: brightness(100%);\n  }\n}\n@keyframes blur-change__bubble {\n  0% {\n    filter: blur(0);\n  }\n  100% {\n    filter: blur(10px);\n  }\n}\n@keyframes change-position__cloud {\n  from {\n    transform: translate(0, 50px);\n  }\n  to {\n    transform: translate(200px, 50px);\n  }\n}\n@keyframes change-position__cloud--reverse {\n  from {\n    transform: translate(446px, 48px);\n  }\n  to {\n    transform: translate(100px, 48px);\n  }\n}\n.works-item {\n  width: 100%;\n  padding: 3rem;\n}\n.works-item__title {\n  text-align: center;\n  margin-bottom: 1rem;\n}\n.works-item__description {\n  margin-bottom: 3rem;\n  text-align: justify;\n}\n.works-item__image {\n  margin: 0 auto;\n  height: 400px;\n}\n@media only screen and (max-width: 600px) {\n  .works-item__image {\n    width: 100%;\n    height: 100%;\n  }\n}\n.works-item__techUsed {\n  margin-top: 2rem;\n  font-size: 1.5rem;\n}\n.works-item__techUsed li {\n  margin: 0;\n  padding: 0;\n  font-weight: normal;\n  font-size: 1rem;\n}\n.works-item__links {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: flex-end;\n  align-items: center;\n  height: 50px;\n  background-color: rgba(211, 211, 211, 0.1215686275);\n  border-radius: 0.375rem;\n}\n.works-item__links * {\n  vertical-align: middle;\n}\n.works-item__links a {\n  margin-left: 1rem;\n}\n.works-item__links a:link {\n  color: #ffffff;\n}\n.works-item__links a:visited {\n  color: #ffffff;\n}\n.works-item__links a:hover {\n  color: red;\n  text-decoration: none;\n}\n.works-item__links a:active {\n  color: #808080;\n}\n.works-item__links a:nth-last-child(1) {\n  margin-right: 1rem;\n}\n\n.clearfix {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n.navbar-items__top--active {\n  background-color: #dedddd !important;\n  color: black;\n  font-weight: bold;\n}\n.navbar-items__top--deactive {\n  font-style: italic;\n}\n\n.theme-reverse div {\n  filter: invert(1) hue-rotate(180deg) !important;\n}", "",{"version":3,"sources":["webpack://./src-main/assets/styles/main.scss"],"names":[],"mappings":"AAAA;;;CAAA;AAKA,wDAAA;AAIA,4DAAA;AAeA;;;;;;;EAOE,qCAAA;AAjBF;;AAoBA;EAOE,0CAAA;AAvBF;AAkBI;EACE,mBAAA;AAhBN;AAqBE;EACE,YAAA;EACA,gBAAA;AAnBJ;;AAuBA,0FAAA;AACA;EACE,kBAAA;EAEA,wDAAA;AArBF;AAsBE;EAJF;IAKI,cAAA;EAnBF;AACF;;AAuBE;EACE,yBAAA;AApBJ;AAsBI;EACE,uBAAA;AApBN;AAwBM;EACE,0EAAA;EAnDN,uBAqDQ;EApDR,sCAqDQ;EApDR,mCAqDQ;EApDR,8BAqDQ;EApDR,sCAqDQ;AAvBV;AA0BM;EACE,mFAAA;EA7DN,uBAgEQ;EA/DR,+CAgEQ;EA/DR,mCAgEQ;EA/DR,8BAgEQ;EA/DR,sCAgEQ;AA1BV;AA+BI;EACE,oEAAA;EA1EJ,sBA4EM;EA3EN,qCA4EM;EA3EN,mCA4EM;EA3EN,8BA4EM;EA3EN,sCA4EM;AA9BR;AAmCM;EACE,+BAAA;EACA,uEAAA;EAvFN,sBAyFQ;EAxFR,wCAyFQ;EAxFR,mCAyFQ;EAxFR,8BAyFQ;EAxFR,sCAyFQ;AAlCV;AAqCM;EACE,+BAAA;EACA,uEAAA;EAlGN,sBAoGQ;EAnGR,wCAoGQ;EAnGR,mCAoGQ;EAnGR,8BAoGQ;EAnGR,sCAoGQ;AApCV;AAyCI;EACE,kEAAA;EA9GJ,sBAgHM;EA/GN,mCAgHM;EA/GN,mCAgHM;EA/GN,8BAgHM;EA/GN,kCAgHM;AAxCR;AA4CI;EACE,UAAA;EACA,YAAA;AA1CN;AA4CM;EAJF;IAKI,WAAA;EAzCN;AACF;AA2CM;EACE,kBAAA;EACA,iDAAA;AAzCR;AA0CQ;EACE,YAAA;EACA,qBAAA;EACA,gCAAA;AAxCV;AA0CU;EACE,iBAAA;AAxCZ;AA2CU;EAKE,uBAAA;AA7CZ;;AAqDA;EACE;IACE,YAAA;EAlDF;EAoDA;IACE,UAAA;EAlDF;AACF;AAqDA;EACE;IACE,sBAAA;EAnDF;EAqDA;IACE,wBAAA;EAnDF;AACF;AAsDA;EACE;IACE,eAAA;EApDF;EAsDA;IACE,kBAAA;EApDF;AACF;AAuDA;EACE;IACE,6BAAA;EArDF;EAuDA;IACE,iCAAA;EArDF;AACF;AAwDA;EACE;IACE,iCAAA;EAtDF;EAwDA;IACE,iCAAA;EAtDF;AACF;AA0DE;EACE,WAAA;EACA,aAAA;AAxDJ;AA0DI;EACE,kBAAA;EACA,mBAAA;AAxDN;AA2DI;EACE,mBAAA;EACA,mBAAA;AAzDN;AA4DI;EACE,cAAA;EACA,aAAA;AA1DN;AA4DM;EAJF;IAKI,WAAA;IACA,YAAA;EAzDN;AACF;AA4DI;EACE,gBAAA;EACA,iBAAA;AA1DN;AA4DM;EACE,SAAA;EACA,UAAA;EACA,mBAAA;EACA,eAAA;AA1DR;AA8DI;EACE,aAAA;EACA,mBAAA;EACA,eAAA;EACA,yBAAA;EACA,mBAAA;EACA,YAAA;EACA,mDAAA;EACA,uBAAA;AA5DN;AA8DM;EACE,sBAAA;AA5DR;AA+DM;EACE,iBAAA;AA7DR;AA+DQ;EACE,cAAA;AA7DV;AAgEQ;EACE,cAAA;AA9DV;AAiEQ;EACE,UAAA;EACA,qBAAA;AA/DV;AAkEQ;EACE,cAAA;AAhEV;AAmEQ;EACE,kBAAA;AAjEV;;AAwEA;EACE,WAAA;EACA,cAAA;EACA,WAAA;AArEF;;AA2EM;EACE,oCAAA;EACA,YAAA;EACA,iBAAA;AAxER;AA2EM;EACE,kBAAA;AAzER;;AAiFI;EAEE,+CAAA;AA/EN","sourcesContent":["/* Naming Convention:\n\tBlock Element Modifier (BEM):\n\t\ti.e Block__Element--Modifier\n*/\n\n/* ---------------- V A R I A B L E S ---------------- */\n$color-border: #80808066;\n$color-hyperlinks--normal: #006400;\n\n/* ------------------ F U N C T I O N S ------------------ */\n@mixin animation-initializer(\n  $dur: 1s,\n  $name: \"\",\n  $times: 1,\n  $dir: normal,\n  $func: linear\n) {\n  animation-duration: $dur;\n  animation-name: $name;\n  animation-iteration-count: $times;\n  animation-direction: $dir;\n  animation-timing-function: $func;\n}\n\nbody,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.w3 {\n  &-row {\n    -padding img {\n      margin-bottom: 12px;\n    }\n  }\n\n  /* Set the width of the sidebar to 120px */\n  &-sidebar {\n    width: 120px;\n    background: #222;\n  }\n}\n\n/* Add a left margin to the \"page content\" that matches the width of the sidebar (120px) */\n#main {\n  margin-left: 120px;\n\n  /* Remove margins from \"page content\" on small screens */\n  @media only screen and (max-width: 600px) {\n    margin-left: 0;\n  }\n}\n\n.berlin {\n  &-animation {\n    transition: all 0.5s ease;\n\n    &:hover {\n      filter: brightness(70%);\n    }\n\n    &__cloud {\n      &-front {\n        /* animation: 30s change-position__cloud infinite alternate ease-in-out; */\n        @include animation-initializer(\n          30s,\n          change-position__cloud,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n      &-back {\n        /* animation: 34s change-position__cloud--reverse infinite alternate ease-in-out; */\n\n        @include animation-initializer(\n          34s,\n          change-position__cloud--reverse,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n    }\n\n    &__grass {\n      /* animation: 34s opacity-change__grass infinite alternate linear; */\n      @include animation-initializer(\n        1s,\n        opacity-change__grass,\n        infinite,\n        alternate,\n        ease-in-out\n      );\n    }\n\n    &__horse {\n      &-right {\n        transform-origin: center center;\n        /* animation: 34s brightness-change__horse infinite alternate linear; */\n        @include animation-initializer(\n          2s,\n          brightness-change__horse,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n      &-left {\n        transform-origin: center center;\n        /* animation: 34s brightness-change__horse infinite alternate linear; */\n        @include animation-initializer(\n          2s,\n          brightness-change__horse,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n    }\n\n    &__tower-bubble {\n      /* animation: 34s blur-change__bubble infinite alternate linear; */\n      @include animation-initializer(\n        2s,\n        blur-change__bubble,\n        infinite,\n        alternate,\n        ease-in\n      );\n    }\n\n    &__container {\n      width: 50%;\n      margin: auto;\n\n      @media only screen and (max-width: 768px) {\n        width: 100%;\n      }\n\n      &-title {\n        text-align: center;\n        border-bottom: 1px solid $color-border;\n        a {\n          color: white;\n          text-decoration: none;\n          transition: all 0.5s ease-in-out;\n\n          &:hover {\n            font-weight: bold;\n          }\n\n          &:link,\n          &:visited,\n          &:focus,\n          &:hover,\n          &:active {\n            color: white !important;\n          }\n        }\n      }\n    }\n  }\n}\n\n@keyframes opacity-change__grass {\n  0% {\n    opacity: 0.5;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes brightness-change__horse {\n  0% {\n    filter: brightness(1%);\n  }\n  100% {\n    filter: brightness(100%);\n  }\n}\n\n@keyframes blur-change__bubble {\n  0% {\n    filter: blur(0);\n  }\n  100% {\n    filter: blur(10px);\n  }\n}\n\n@keyframes change-position__cloud {\n  from {\n    transform: translate(0, 50px);\n  }\n  to {\n    transform: translate(200px, 50px);\n  }\n}\n\n@keyframes change-position__cloud--reverse {\n  from {\n    transform: translate(446px, 48px);\n  }\n  to {\n    transform: translate(100px, 48px);\n  }\n}\n\n.works {\n  &-item {\n    width: 100%;\n    padding: 3rem;\n\n    &__title {\n      text-align: center;\n      margin-bottom: 1rem;\n    }\n\n    &__description {\n      margin-bottom: 3rem;\n      text-align: justify;\n    }\n\n    &__image {\n      margin: 0 auto;\n      height: 400px;\n\n      @media only screen and (max-width: 600px) {\n        width: 100%;\n        height: 100%;\n      }\n    }\n\n    &__techUsed {\n      margin-top: 2rem;\n      font-size: 1.5rem;\n\n      li {\n        margin: 0;\n        padding: 0;\n        font-weight: normal;\n        font-size: 1rem;\n      }\n    }\n\n    &__links {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n      justify-content: flex-end;\n      align-items: center;\n      height: 50px;\n      background-color: #d3d3d31f;\n      border-radius: 0.375rem;\n\n      * {\n        vertical-align: middle;\n      }\n\n      a {\n        margin-left: 1rem;\n\n        &:link {\n          color: #ffffff;\n        }\n\n        &:visited {\n          color: #ffffff;\n        }\n\n        &:hover {\n          color: red;\n          text-decoration: none;\n        }\n\n        &:active {\n          color: #808080;\n        }\n\n        &:nth-last-child(1) {\n          margin-right: 1rem;\n        }\n      }\n    }\n  }\n}\n\n.clearfix {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n.navbar {\n  &-items {\n    &__top {\n      &--active {\n        background-color: #dedddd !important;\n        color: black;\n        font-weight: bold;\n      }\n\n      &--deactive {\n        font-style: italic;\n      }\n    }\n  }\n}\n\n.theme {\n  &-reverse {\n    div {\n      // background-color: invert(1) hue-rotate(180deg) !important;\n      filter: invert(1) hue-rotate(180deg) !important;\n    }\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Naming Convention:\n\tBlock Element Modifier (BEM):\n\t\ti.e Block__Element--Modifier\n*/\n/* ---------------- V A R I A B L E S ---------------- */\n/* ------------------ F U N C T I O N S ------------------ */\nbody,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.w3 {\n  /* Set the width of the sidebar to 120px */\n}\n.w3-row -padding img {\n  margin-bottom: 12px;\n}\n.w3-sidebar {\n  width: 120px;\n  background: #222;\n}\n\n/* Add a left margin to the \"page content\" that matches the width of the sidebar (120px) */\n#main {\n  margin-left: 120px;\n  /* Remove margins from \"page content\" on small screens */\n}\n@media only screen and (max-width: 600px) {\n  #main {\n    margin-left: 0;\n  }\n}\n\n.berlin-animation {\n  transition: all 0.5s ease;\n}\n.berlin-animation:hover {\n  filter: brightness(70%);\n}\n.berlin-animation__cloud-front {\n  /* animation: 30s change-position__cloud infinite alternate ease-in-out; */\n  animation-duration: 30s;\n  animation-name: change-position__cloud;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__cloud-back {\n  /* animation: 34s change-position__cloud--reverse infinite alternate ease-in-out; */\n  animation-duration: 34s;\n  animation-name: change-position__cloud--reverse;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__grass {\n  /* animation: 34s opacity-change__grass infinite alternate linear; */\n  animation-duration: 1s;\n  animation-name: opacity-change__grass;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__horse-right {\n  transform-origin: center center;\n  /* animation: 34s brightness-change__horse infinite alternate linear; */\n  animation-duration: 2s;\n  animation-name: brightness-change__horse;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__horse-left {\n  transform-origin: center center;\n  /* animation: 34s brightness-change__horse infinite alternate linear; */\n  animation-duration: 2s;\n  animation-name: brightness-change__horse;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in-out;\n}\n.berlin-animation__tower-bubble {\n  /* animation: 34s blur-change__bubble infinite alternate linear; */\n  animation-duration: 2s;\n  animation-name: blur-change__bubble;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  animation-timing-function: ease-in;\n}\n.berlin-animation__container {\n  width: 50%;\n  margin: auto;\n}\n@media only screen and (max-width: 768px) {\n  .berlin-animation__container {\n    width: 100%;\n  }\n}\n.berlin-animation__container-title {\n  text-align: center;\n  border-bottom: 1px solid rgba(128, 128, 128, 0.4);\n}\n.berlin-animation__container-title a {\n  color: white;\n  text-decoration: none;\n  transition: all 0.5s ease-in-out;\n}\n.berlin-animation__container-title a:hover {\n  font-weight: bold;\n}\n.berlin-animation__container-title a:link, .berlin-animation__container-title a:visited, .berlin-animation__container-title a:focus, .berlin-animation__container-title a:hover, .berlin-animation__container-title a:active {\n  color: white !important;\n}\n\n@keyframes opacity-change__grass {\n  0% {\n    opacity: 0.5;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@keyframes brightness-change__horse {\n  0% {\n    filter: brightness(1%);\n  }\n  100% {\n    filter: brightness(100%);\n  }\n}\n@keyframes blur-change__bubble {\n  0% {\n    filter: blur(0);\n  }\n  100% {\n    filter: blur(10px);\n  }\n}\n@keyframes change-position__cloud {\n  from {\n    transform: translate(0, 50px);\n  }\n  to {\n    transform: translate(200px, 50px);\n  }\n}\n@keyframes change-position__cloud--reverse {\n  from {\n    transform: translate(446px, 48px);\n  }\n  to {\n    transform: translate(100px, 48px);\n  }\n}\n.projects-item {\n  width: 100%;\n  padding: 3rem;\n}\n.projects-item__title {\n  text-align: center;\n  margin-bottom: 1rem;\n}\n.projects-item__description {\n  margin-bottom: 3rem;\n  margin-top: 2rem;\n  text-align: justify;\n  padding: 1rem;\n  border-radius: 0.375rem;\n  background-color: rgba(255, 255, 255, 0.0666666667);\n}\n.projects-item__image {\n  margin: 0 auto;\n  height: 400px;\n}\n@media only screen and (max-width: 600px) {\n  .projects-item__image {\n    width: 100%;\n    height: 100%;\n  }\n}\n.projects-item__techUsed {\n  margin-top: 2rem;\n  font-size: 1.5rem;\n}\n.projects-item__techUsed li {\n  margin: 0;\n  padding: 0;\n  font-weight: normal;\n  font-size: 1rem;\n}\n.projects-item__links {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: flex-end;\n  align-items: center;\n  height: 50px;\n  background-color: rgba(255, 255, 255, 0.0666666667);\n  border-radius: 0.375rem;\n}\n.projects-item__links * {\n  vertical-align: middle;\n}\n.projects-item__links a {\n  margin-left: 1rem;\n}\n.projects-item__links a:link {\n  color: #ffffff;\n}\n.projects-item__links a:visited {\n  color: #ffffff;\n}\n.projects-item__links a:hover {\n  color: red;\n  text-decoration: none;\n}\n.projects-item__links a:active {\n  color: #808080;\n}\n.projects-item__links a:nth-last-child(1) {\n  margin-right: 1rem;\n}\n\n.clearfix {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n.navbar-items__top--active {\n  background-color: #dedddd !important;\n  color: black;\n  font-weight: bold;\n}\n.navbar-items__top--deactive {\n  font-style: italic;\n}\n\n.theme-reverse div {\n  filter: invert(1) hue-rotate(180deg) !important;\n}", "",{"version":3,"sources":["webpack://./src-main/assets/styles/main.scss"],"names":[],"mappings":"AAAA;;;CAAA;AAKA,wDAAA;AAKA,4DAAA;AAeA;;;;;;;EAOE,qCAAA;AAlBF;;AAqBA;EAOE,0CAAA;AAxBF;AAmBI;EACE,mBAAA;AAjBN;AAsBE;EACE,YAAA;EACA,gBAAA;AApBJ;;AAwBA,0FAAA;AACA;EACE,kBAAA;EAEA,wDAAA;AAtBF;AAuBE;EAJF;IAKI,cAAA;EApBF;AACF;;AAwBE;EACE,yBAAA;AArBJ;AAuBI;EACE,uBAAA;AArBN;AAyBM;EACE,0EAAA;EAnDN,uBAqDQ;EApDR,sCAqDQ;EApDR,mCAqDQ;EApDR,8BAqDQ;EApDR,sCAqDQ;AAxBV;AA2BM;EACE,mFAAA;EA7DN,uBAgEQ;EA/DR,+CAgEQ;EA/DR,mCAgEQ;EA/DR,8BAgEQ;EA/DR,sCAgEQ;AA3BV;AAgCI;EACE,oEAAA;EA1EJ,sBA4EM;EA3EN,qCA4EM;EA3EN,mCA4EM;EA3EN,8BA4EM;EA3EN,sCA4EM;AA/BR;AAoCM;EACE,+BAAA;EACA,uEAAA;EAvFN,sBAyFQ;EAxFR,wCAyFQ;EAxFR,mCAyFQ;EAxFR,8BAyFQ;EAxFR,sCAyFQ;AAnCV;AAsCM;EACE,+BAAA;EACA,uEAAA;EAlGN,sBAoGQ;EAnGR,wCAoGQ;EAnGR,mCAoGQ;EAnGR,8BAoGQ;EAnGR,sCAoGQ;AArCV;AA0CI;EACE,kEAAA;EA9GJ,sBAgHM;EA/GN,mCAgHM;EA/GN,mCAgHM;EA/GN,8BAgHM;EA/GN,kCAgHM;AAzCR;AA6CI;EACE,UAAA;EACA,YAAA;AA3CN;AA6CM;EAJF;IAKI,WAAA;EA1CN;AACF;AA4CM;EACE,kBAAA;EACA,iDAAA;AA1CR;AA2CQ;EACE,YAAA;EACA,qBAAA;EACA,gCAAA;AAzCV;AA2CU;EACE,iBAAA;AAzCZ;AA4CU;EAKE,uBAAA;AA9CZ;;AAsDA;EACE;IACE,YAAA;EAnDF;EAqDA;IACE,UAAA;EAnDF;AACF;AAsDA;EACE;IACE,sBAAA;EApDF;EAsDA;IACE,wBAAA;EApDF;AACF;AAuDA;EACE;IACE,eAAA;EArDF;EAuDA;IACE,kBAAA;EArDF;AACF;AAwDA;EACE;IACE,6BAAA;EAtDF;EAwDA;IACE,iCAAA;EAtDF;AACF;AAyDA;EACE;IACE,iCAAA;EAvDF;EAyDA;IACE,iCAAA;EAvDF;AACF;AA2DE;EACE,WAAA;EACA,aAAA;AAzDJ;AA2DI;EACE,kBAAA;EACA,mBAAA;AAzDN;AA4DI;EACE,mBAAA;EACA,gBAAA;EACA,mBAAA;EACA,aAAA;EACA,uBAAA;EACA,mDAhOa;AAsKnB;AA6DI;EACE,cAAA;EACA,aAAA;AA3DN;AA6DM;EAJF;IAKI,WAAA;IACA,YAAA;EA1DN;AACF;AA6DI;EACE,gBAAA;EACA,iBAAA;AA3DN;AA6DM;EACE,SAAA;EACA,UAAA;EACA,mBAAA;EACA,eAAA;AA3DR;AA+DI;EACE,aAAA;EACA,mBAAA;EACA,eAAA;EACA,yBAAA;EACA,mBAAA;EACA,YAAA;EACA,mDAhQa;EAiQb,uBAAA;AA7DN;AA+DM;EACE,sBAAA;AA7DR;AAgEM;EACE,iBAAA;AA9DR;AAgEQ;EACE,cAAA;AA9DV;AAiEQ;EACE,cAAA;AA/DV;AAkEQ;EACE,UAAA;EACA,qBAAA;AAhEV;AAmEQ;EACE,cAAA;AAjEV;AAoEQ;EACE,kBAAA;AAlEV;;AAyEA;EACE,WAAA;EACA,cAAA;EACA,WAAA;AAtEF;;AA4EM;EACE,oCAAA;EACA,YAAA;EACA,iBAAA;AAzER;AA4EM;EACE,kBAAA;AA1ER;;AAkFI;EAEE,+CAAA;AAhFN","sourcesContent":["/* Naming Convention:\n\tBlock Element Modifier (BEM):\n\t\ti.e Block__Element--Modifier\n*/\n\n/* ---------------- V A R I A B L E S ---------------- */\n$color__border: #80808066;\n$color__hyperlinks--normal: #006400;\n$color__bg--light: #ffffff11;\n\n/* ------------------ F U N C T I O N S ------------------ */\n@mixin animation-initializer(\n  $dur: 1s,\n  $name: \"\",\n  $times: 1,\n  $dir: normal,\n  $func: linear\n) {\n  animation-duration: $dur;\n  animation-name: $name;\n  animation-iteration-count: $times;\n  animation-direction: $dir;\n  animation-timing-function: $func;\n}\n\nbody,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.w3 {\n  &-row {\n    -padding img {\n      margin-bottom: 12px;\n    }\n  }\n\n  /* Set the width of the sidebar to 120px */\n  &-sidebar {\n    width: 120px;\n    background: #222;\n  }\n}\n\n/* Add a left margin to the \"page content\" that matches the width of the sidebar (120px) */\n#main {\n  margin-left: 120px;\n\n  /* Remove margins from \"page content\" on small screens */\n  @media only screen and (max-width: 600px) {\n    margin-left: 0;\n  }\n}\n\n.berlin {\n  &-animation {\n    transition: all 0.5s ease;\n\n    &:hover {\n      filter: brightness(70%);\n    }\n\n    &__cloud {\n      &-front {\n        /* animation: 30s change-position__cloud infinite alternate ease-in-out; */\n        @include animation-initializer(\n          30s,\n          change-position__cloud,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n      &-back {\n        /* animation: 34s change-position__cloud--reverse infinite alternate ease-in-out; */\n\n        @include animation-initializer(\n          34s,\n          change-position__cloud--reverse,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n    }\n\n    &__grass {\n      /* animation: 34s opacity-change__grass infinite alternate linear; */\n      @include animation-initializer(\n        1s,\n        opacity-change__grass,\n        infinite,\n        alternate,\n        ease-in-out\n      );\n    }\n\n    &__horse {\n      &-right {\n        transform-origin: center center;\n        /* animation: 34s brightness-change__horse infinite alternate linear; */\n        @include animation-initializer(\n          2s,\n          brightness-change__horse,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n      &-left {\n        transform-origin: center center;\n        /* animation: 34s brightness-change__horse infinite alternate linear; */\n        @include animation-initializer(\n          2s,\n          brightness-change__horse,\n          infinite,\n          alternate,\n          ease-in-out\n        );\n      }\n    }\n\n    &__tower-bubble {\n      /* animation: 34s blur-change__bubble infinite alternate linear; */\n      @include animation-initializer(\n        2s,\n        blur-change__bubble,\n        infinite,\n        alternate,\n        ease-in\n      );\n    }\n\n    &__container {\n      width: 50%;\n      margin: auto;\n\n      @media only screen and (max-width: 768px) {\n        width: 100%;\n      }\n\n      &-title {\n        text-align: center;\n        border-bottom: 1px solid $color__border;\n        a {\n          color: white;\n          text-decoration: none;\n          transition: all 0.5s ease-in-out;\n\n          &:hover {\n            font-weight: bold;\n          }\n\n          &:link,\n          &:visited,\n          &:focus,\n          &:hover,\n          &:active {\n            color: white !important;\n          }\n        }\n      }\n    }\n  }\n}\n\n@keyframes opacity-change__grass {\n  0% {\n    opacity: 0.5;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes brightness-change__horse {\n  0% {\n    filter: brightness(1%);\n  }\n  100% {\n    filter: brightness(100%);\n  }\n}\n\n@keyframes blur-change__bubble {\n  0% {\n    filter: blur(0);\n  }\n  100% {\n    filter: blur(10px);\n  }\n}\n\n@keyframes change-position__cloud {\n  from {\n    transform: translate(0, 50px);\n  }\n  to {\n    transform: translate(200px, 50px);\n  }\n}\n\n@keyframes change-position__cloud--reverse {\n  from {\n    transform: translate(446px, 48px);\n  }\n  to {\n    transform: translate(100px, 48px);\n  }\n}\n\n.projects {\n  &-item {\n    width: 100%;\n    padding: 3rem;\n\n    &__title {\n      text-align: center;\n      margin-bottom: 1rem;\n    }\n\n    &__description {\n      margin-bottom: 3rem;\n      margin-top: 2rem;\n      text-align: justify;\n      padding: 1rem;\n      border-radius: 0.375rem;\n      background-color: $color__bg--light;\n    }\n\n    &__image {\n      margin: 0 auto;\n      height: 400px;\n\n      @media only screen and (max-width: 600px) {\n        width: 100%;\n        height: 100%;\n      }\n    }\n\n    &__techUsed {\n      margin-top: 2rem;\n      font-size: 1.5rem;\n\n      li {\n        margin: 0;\n        padding: 0;\n        font-weight: normal;\n        font-size: 1rem;\n      }\n    }\n\n    &__links {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n      justify-content: flex-end;\n      align-items: center;\n      height: 50px;\n      background-color: $color__bg--light;\n      border-radius: 0.375rem;\n\n      * {\n        vertical-align: middle;\n      }\n\n      a {\n        margin-left: 1rem;\n\n        &:link {\n          color: #ffffff;\n        }\n\n        &:visited {\n          color: #ffffff;\n        }\n\n        &:hover {\n          color: red;\n          text-decoration: none;\n        }\n\n        &:active {\n          color: #808080;\n        }\n\n        &:nth-last-child(1) {\n          margin-right: 1rem;\n        }\n      }\n    }\n  }\n}\n\n.clearfix {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n.navbar {\n  &-items {\n    &__top {\n      &--active {\n        background-color: #dedddd !important;\n        color: black;\n        font-weight: bold;\n      }\n\n      &--deactive {\n        font-style: italic;\n      }\n    }\n  }\n}\n\n.theme {\n  &-reverse {\n    div {\n      // background-color: invert(1) hue-rotate(180deg) !important;\n      filter: invert(1) hue-rotate(180deg) !important;\n    }\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -744,10 +760,10 @@ window.addEventListener("load", () => {
   // const btnToggleThemeEl = document.getElementById("btn-toggle-theme");
   const divHomeEl = document.getElementById("home");
   const divAboutEl = document.getElementById("about");
-  const divWorksEl = document.getElementById("works");
+  const divProjectsEl = document.getElementById("projects");
   const divContactEl = document.getElementById("contact");
   const btnSendMessageEl = document.getElementById("btnSendMessage");
-  const slideShowWorksEl = document.getElementById("slide-show-works");
+  const slideShowProjectsEl = document.getElementById("slide-show-projects");
   addEventListener("resize", _ => {
     windowHeight = window.innerHeight;
     updateNavBar();
@@ -798,14 +814,14 @@ window.addEventListener("load", () => {
   function updateNavBar() {
     const divHomeOffsets = divHomeEl.getBoundingClientRect();
     const divAboutOffsets = divAboutEl.getBoundingClientRect();
-    const divWorksOffsets = divWorksEl.getBoundingClientRect();
+    const divProjectsOffsets = divProjectsEl.getBoundingClientRect();
     const divContactOffsets = divContactEl.getBoundingClientRect();
     if (divHomeOffsets.top < windowHeight / 2 && divHomeOffsets.height + divHomeOffsets.top > divHomeOffsets.height / 2) {
       activateNavbarItem("home");
     } else if (divAboutOffsets.top < windowHeight / 2 && divAboutOffsets.height + divAboutOffsets.top > divAboutOffsets.height / 2) {
       activateNavbarItem("about");
-    } else if (divWorksOffsets.top < windowHeight / 2 && divWorksOffsets.height + divWorksOffsets.top > divWorksOffsets.height / 2) {
-      activateNavbarItem("works");
+    } else if (divProjectsOffsets.top < windowHeight / 2 && divProjectsOffsets.height + divProjectsOffsets.top > divProjectsOffsets.height / 2) {
+      activateNavbarItem("projects");
     } else if (divContactOffsets.top < windowHeight / 2 && divContactOffsets.height + divContactOffsets.top > divContactOffsets.height / 2) {
       activateNavbarItem("contact");
     }
@@ -837,15 +853,15 @@ window.addEventListener("load", () => {
 
   // Init slides
   /**
-   * Initialize all my works
+   * Initialize all my projects
    * @function
    */
-  function initWorks() {
-    for (let i = 0; i < _assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_WORKS.length; i++) {
-      const worksItemEl = generateWorkItem(i, _assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_WORKS[i]);
-      slideShowWorksEl.append(worksItemEl);
-      if (_assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_WORKS[i].screenShots) {
-        w3.slideshow("." + _assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_WORKS[i]._id + "-carousel", CAROUSEL_WORK_ITEM_TIMEOUT_DURATION);
+  function initProjects() {
+    for (let i = 0; i < _assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_PROJECTS.length; i++) {
+      const projectsItemEl = generateProjectItem(i, _assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_PROJECTS[i]);
+      slideShowProjectsEl.append(projectsItemEl);
+      if (_assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_PROJECTS[i].screenShots) {
+        w3.slideshow("." + _assets_scripts_data__WEBPACK_IMPORTED_MODULE_1__.MY_PROJECTS[i]._id + "-carousel", CAROUSEL_WORK_ITEM_TIMEOUT_DURATION);
       }
     }
     const btnPrevEl = document.createElement("button");
@@ -854,15 +870,15 @@ window.addEventListener("load", () => {
     btnNextEl.classList.add("w3-button", "w3-black", "w3-display-right");
     btnPrevEl.innerHTML = "&#10094;";
     btnNextEl.innerHTML = "&#10095;";
-    const myWorksSlideShow = w3.slideshow(".works-item", CAROUSEL_WORKS_TIMEOUT_DURATION);
+    const myProjectsSlideShow = w3.slideshow(".projects-item", CAROUSEL_WORKS_TIMEOUT_DURATION);
     btnPrevEl.addEventListener("click", _ => {
-      myWorksSlideShow.previous();
+      myProjectsSlideShow.previous();
     });
     btnNextEl.addEventListener("click", _ => {
-      myWorksSlideShow.next();
+      myProjectsSlideShow.next();
     });
-    slideShowWorksEl.append(btnPrevEl);
-    slideShowWorksEl.append(btnNextEl);
+    slideShowProjectsEl.append(btnPrevEl);
+    slideShowProjectsEl.append(btnNextEl);
   }
 
   /**
@@ -871,7 +887,7 @@ window.addEventListener("load", () => {
    * @param {object} workItem
    * @returns {HTMLDivElement}
    */
-  function generateWorkItem(itemIndex, _ref) {
+  function generateProjectItem(itemIndex, _ref) {
     let {
       _id,
       title,
@@ -880,31 +896,31 @@ window.addEventListener("load", () => {
       techUsed,
       links
     } = _ref;
-    const divWorkItemEl = document.createElement("div");
-    const txtWorkItemTitleEl = document.createElement("h3");
+    const divProjectItemEl = document.createElement("div");
+    const txtProjectItemTitleEl = document.createElement("h3");
     const lineDividerEl = document.createElement("hr");
     const lineDivider2El = document.createElement("hr");
-    const txtWorkItemDescriptionEl = document.createElement("p");
+    const txtProjectItemDescriptionEl = document.createElement("p");
     const divClearEl = document.createElement("div");
-    txtWorkItemTitleEl.textContent = `${itemIndex + 1}. ${title}`;
-    txtWorkItemTitleEl.classList.add("works-item__title");
-    txtWorkItemDescriptionEl.textContent = description;
-    txtWorkItemDescriptionEl.classList.add("works-item__description");
+    txtProjectItemTitleEl.textContent = `${itemIndex + 1}. ${title}`;
+    txtProjectItemTitleEl.classList.add("projects-item__title");
+    divProjectItemEl.classList.add("projects-item");
+    divProjectItemEl.append(txtProjectItemTitleEl);
+    divProjectItemEl.append(lineDividerEl);
+    if (screenShots) {
+      divProjectItemEl.append(generateCarouselItem(_id, screenShots));
+    }
+    txtProjectItemDescriptionEl.textContent = description;
+    txtProjectItemDescriptionEl.classList.add("projects-item__description");
+    divProjectItemEl.append(txtProjectItemDescriptionEl);
     lineDividerEl.classList.add("w3-opacity");
     lineDivider2El.classList.add("w3-opacity");
     divClearEl.classList.add("clearfix");
-    divWorkItemEl.classList.add("works-item");
-    divWorkItemEl.append(txtWorkItemTitleEl);
-    divWorkItemEl.append(lineDividerEl);
-    divWorkItemEl.append(txtWorkItemDescriptionEl);
-    if (screenShots) {
-      divWorkItemEl.append(generateCarouselItem(_id, screenShots));
-    }
-    divWorkItemEl.append(generateListItems(techUsed));
-    divWorkItemEl.append(lineDivider2El);
-    divWorkItemEl.append(generateLinks(links));
-    divWorkItemEl.append(divClearEl);
-    return divWorkItemEl;
+    divProjectItemEl.append(generateListItems(techUsed, "projects-item__techUsed", "Technologies Used"));
+    divProjectItemEl.append(lineDivider2El);
+    divProjectItemEl.append(generateLinks(links));
+    divProjectItemEl.append(divClearEl);
+    return divProjectItemEl;
   }
 
   /**
@@ -917,10 +933,12 @@ window.addEventListener("load", () => {
   function generateCarouselItem(_id, images) {
     const divCarouselEl = document.createElement("div");
     for (let i = 0; i < images.length; i++) {
-      const imgWorkItemPhotoEl = document.createElement("img");
-      imgWorkItemPhotoEl.src = images[i];
-      imgWorkItemPhotoEl.classList.add("works-item__image", _id + "-carousel", "w3-animate-opacity", "w3-image", "w3-round");
-      divCarouselEl.append(imgWorkItemPhotoEl);
+      const imgProjectItemPhotoEl = document.createElement("img");
+      imgProjectItemPhotoEl.src = images[i];
+      imgProjectItemPhotoEl.classList.add("projects-item__image", _id + "-carousel", i % 2 === 0 ? "w3-animate-right" : "w3-animate-left",
+      // "w3-animate-fading",
+      "w3-image", "w3-round");
+      divCarouselEl.append(imgProjectItemPhotoEl);
     }
     return divCarouselEl;
   }
@@ -931,14 +949,14 @@ window.addEventListener("load", () => {
    * @param {string[]} items
    * @returns {HTMLUListElement}
    */
-  function generateListItems(items) {
+  function generateListItems(items, className, title) {
     const ulEl = document.createElement("ul");
-    ulEl.classList.add("works-item__techUsed");
-    ulEl.innerText = "Technologies Used";
+    ulEl.classList.add(className);
+    ulEl.innerText = title;
     for (let i = 0; i < items.length; i++) {
       const liEl = document.createElement("li");
       liEl.innerText = items[i];
-      liEl.classList.add("works-item__techUsed");
+      liEl.classList.add(className);
       ulEl.append(liEl);
     }
     return ulEl;
@@ -952,8 +970,8 @@ window.addEventListener("load", () => {
    */
   function generateLinks(items) {
     const divLinksEl = document.createElement("div");
-    divLinksEl.classList.add("works-item__links");
-    divLinksEl.textContent = "Check these links";
+    divLinksEl.classList.add("projects-item__links");
+    divLinksEl.textContent = "More: ";
     for (let i = 0; i < items.length; i++) {
       const hyperLinkEl = document.createElement("a");
       if (items[i].title === "Source code") {
@@ -978,7 +996,7 @@ window.addEventListener("load", () => {
     // console.log(formContactEl);
   });
   localStorage.setItem("theme", "dark");
-  initWorks();
+  initProjects();
   updateNavBar();
   // updateAppTheme("dark");
 });
@@ -986,4 +1004,4 @@ window.addEventListener("load", () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=index.c1ce7c8ccd00e95ccee1.js.map
+//# sourceMappingURL=index.33c848da501f72c2a5d9.js.map
