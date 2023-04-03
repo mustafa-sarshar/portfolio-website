@@ -4,8 +4,9 @@
 */
 
 /* ---------------- V A R I A B L E S ---------------- */
-$color-border: #80808066;
-$color-hyperlinks--normal: #006400;
+$color__border: #80808066;
+$color__hyperlinks--normal: #006400;
+$color__bg--light: #ffffff11;
 
 /* ------------------ F U N C T I O N S ------------------ */
 @mixin animation-initializer(
@@ -145,7 +146,7 @@ h6 {
 
       &-title {
         text-align: center;
-        border-bottom: 1px solid $color-border;
+        border-bottom: 1px solid $color__border;
         a {
           color: white;
           text-decoration: none;
@@ -213,7 +214,7 @@ h6 {
   }
 }
 
-.works {
+.projects {
   &-item {
     width: 100%;
     padding: 3rem;
@@ -225,7 +226,11 @@ h6 {
 
     &__description {
       margin-bottom: 3rem;
+      margin-top: 2rem;
       text-align: justify;
+      padding: 1rem;
+      border-radius: 0.375rem;
+      background-color: $color__bg--light;
     }
 
     &__image {
@@ -257,7 +262,7 @@ h6 {
       justify-content: flex-end;
       align-items: center;
       height: 50px;
-      background-color: #d3d3d31f;
+      background-color: $color__bg--light;
       border-radius: 0.375rem;
 
       * {

@@ -5,7 +5,7 @@
  */
 
 import "./assets/styles/main.scss";
-import { MY_WORKS } from "./assets/scripts/data";
+import { MY_PROJECTS } from "./assets/scripts/data";
 
 const CAROUSEL_WORK_ITEM_TIMEOUT_DURATION = 2500;
 const CAROUSEL_WORKS_TIMEOUT_DURATION = 30000;
@@ -20,10 +20,10 @@ window.addEventListener("load", () => {
   // const btnToggleThemeEl = document.getElementById("btn-toggle-theme");
   const divHomeEl = document.getElementById("home");
   const divAboutEl = document.getElementById("about");
-  const divWorksEl = document.getElementById("works");
+  const divProjectsEl = document.getElementById("projects");
   const divContactEl = document.getElementById("contact");
   const btnSendMessageEl = document.getElementById("btnSendMessage");
-  const slideShowWorksEl = document.getElementById("slide-show-works");
+  const slideShowProjectsEl = document.getElementById("slide-show-projects");
 
   addEventListener("resize", (_) => {
     windowHeight = window.innerHeight;
@@ -76,7 +76,7 @@ window.addEventListener("load", () => {
   function updateNavBar() {
     const divHomeOffsets = divHomeEl.getBoundingClientRect();
     const divAboutOffsets = divAboutEl.getBoundingClientRect();
-    const divWorksOffsets = divWorksEl.getBoundingClientRect();
+    const divProjectsOffsets = divProjectsEl.getBoundingClientRect();
     const divContactOffsets = divContactEl.getBoundingClientRect();
 
     if (
@@ -90,10 +90,11 @@ window.addEventListener("load", () => {
     ) {
       activateNavbarItem("about");
     } else if (
-      divWorksOffsets.top < windowHeight / 2 &&
-      divWorksOffsets.height + divWorksOffsets.top > divWorksOffsets.height / 2
+      divProjectsOffsets.top < windowHeight / 2 &&
+      divProjectsOffsets.height + divProjectsOffsets.top >
+        divProjectsOffsets.height / 2
     ) {
-      activateNavbarItem("works");
+      activateNavbarItem("projects");
     } else if (
       divContactOffsets.top < windowHeight / 2 &&
       divContactOffsets.height + divContactOffsets.top >
@@ -133,17 +134,17 @@ window.addEventListener("load", () => {
 
   // Init slides
   /**
-   * Initialize all my works
+   * Initialize all my projects
    * @function
    */
-  function initWorks() {
-    for (let i = 0; i < MY_WORKS.length; i++) {
-      const worksItemEl = generateWorkItem(i, MY_WORKS[i]);
+  function initProjects() {
+    for (let i = 0; i < MY_PROJECTS.length; i++) {
+      const projectsItemEl = generateProjectItem(i, MY_PROJECTS[i]);
 
-      slideShowWorksEl.append(worksItemEl);
-      if (MY_WORKS[i].screenShots) {
+      slideShowProjectsEl.append(projectsItemEl);
+      if (MY_PROJECTS[i].screenShots) {
         w3.slideshow(
-          "." + MY_WORKS[i]._id + "-carousel",
+          "." + MY_PROJECTS[i]._id + "-carousel",
           CAROUSEL_WORK_ITEM_TIMEOUT_DURATION
         );
       }
@@ -158,20 +159,20 @@ window.addEventListener("load", () => {
     btnPrevEl.innerHTML = "&#10094;";
     btnNextEl.innerHTML = "&#10095;";
 
-    const myWorksSlideShow = w3.slideshow(
-      ".works-item",
+    const myProjectsSlideShow = w3.slideshow(
+      ".projects-item",
       CAROUSEL_WORKS_TIMEOUT_DURATION
     );
 
     btnPrevEl.addEventListener("click", (_) => {
-      myWorksSlideShow.previous();
+      myProjectsSlideShow.previous();
     });
     btnNextEl.addEventListener("click", (_) => {
-      myWorksSlideShow.next();
+      myProjectsSlideShow.next();
     });
 
-    slideShowWorksEl.append(btnPrevEl);
-    slideShowWorksEl.append(btnNextEl);
+    slideShowProjectsEl.append(btnPrevEl);
+    slideShowProjectsEl.append(btnNextEl);
   }
 
   /**
@@ -180,42 +181,49 @@ window.addEventListener("load", () => {
    * @param {object} workItem
    * @returns {HTMLDivElement}
    */
-  function generateWorkItem(
+  function generateProjectItem(
     itemIndex,
     { _id, title, description, screenShots, techUsed, links }
   ) {
-    const divWorkItemEl = document.createElement("div");
-    const txtWorkItemTitleEl = document.createElement("h3");
+    const divProjectItemEl = document.createElement("div");
+    const txtProjectItemTitleEl = document.createElement("h3");
     const lineDividerEl = document.createElement("hr");
     const lineDivider2El = document.createElement("hr");
 
-    const txtWorkItemDescriptionEl = document.createElement("p");
+    const txtProjectItemDescriptionEl = document.createElement("p");
     const divClearEl = document.createElement("div");
 
-    txtWorkItemTitleEl.textContent = `${itemIndex + 1}. ${title}`;
-    txtWorkItemTitleEl.classList.add("works-item__title");
-    txtWorkItemDescriptionEl.textContent = description;
-    txtWorkItemDescriptionEl.classList.add("works-item__description");
+    txtProjectItemTitleEl.textContent = `${itemIndex + 1}. ${title}`;
+    txtProjectItemTitleEl.classList.add("projects-item__title");
+
+    divProjectItemEl.classList.add("projects-item");
+    divProjectItemEl.append(txtProjectItemTitleEl);
+    divProjectItemEl.append(lineDividerEl);
+
+    if (screenShots) {
+      divProjectItemEl.append(generateCarouselItem(_id, screenShots));
+    }
+
+    txtProjectItemDescriptionEl.textContent = description;
+    txtProjectItemDescriptionEl.classList.add("projects-item__description");
+    divProjectItemEl.append(txtProjectItemDescriptionEl);
     lineDividerEl.classList.add("w3-opacity");
     lineDivider2El.classList.add("w3-opacity");
     divClearEl.classList.add("clearfix");
 
-    divWorkItemEl.classList.add("works-item");
-    divWorkItemEl.append(txtWorkItemTitleEl);
-    divWorkItemEl.append(lineDividerEl);
-    divWorkItemEl.append(txtWorkItemDescriptionEl);
+    divProjectItemEl.append(
+      generateListItems(
+        techUsed,
+        "projects-item__techUsed",
+        "Technologies Used"
+      )
+    );
+    divProjectItemEl.append(lineDivider2El);
+    divProjectItemEl.append(generateLinks(links));
 
-    if (screenShots) {
-      divWorkItemEl.append(generateCarouselItem(_id, screenShots));
-    }
+    divProjectItemEl.append(divClearEl);
 
-    divWorkItemEl.append(generateListItems(techUsed));
-    divWorkItemEl.append(lineDivider2El);
-    divWorkItemEl.append(generateLinks(links));
-
-    divWorkItemEl.append(divClearEl);
-
-    return divWorkItemEl;
+    return divProjectItemEl;
   }
 
   /**
@@ -228,17 +236,18 @@ window.addEventListener("load", () => {
   function generateCarouselItem(_id, images) {
     const divCarouselEl = document.createElement("div");
     for (let i = 0; i < images.length; i++) {
-      const imgWorkItemPhotoEl = document.createElement("img");
-      imgWorkItemPhotoEl.src = images[i];
-      imgWorkItemPhotoEl.classList.add(
-        "works-item__image",
+      const imgProjectItemPhotoEl = document.createElement("img");
+      imgProjectItemPhotoEl.src = images[i];
+      imgProjectItemPhotoEl.classList.add(
+        "projects-item__image",
         _id + "-carousel",
-        "w3-animate-opacity",
+        i % 2 === 0 ? "w3-animate-right" : "w3-animate-left",
+        // "w3-animate-fading",
         "w3-image",
         "w3-round"
       );
 
-      divCarouselEl.append(imgWorkItemPhotoEl);
+      divCarouselEl.append(imgProjectItemPhotoEl);
     }
 
     return divCarouselEl;
@@ -250,15 +259,15 @@ window.addEventListener("load", () => {
    * @param {string[]} items
    * @returns {HTMLUListElement}
    */
-  function generateListItems(items) {
+  function generateListItems(items, className, title) {
     const ulEl = document.createElement("ul");
-    ulEl.classList.add("works-item__techUsed");
-    ulEl.innerText = "Technologies Used";
+    ulEl.classList.add(className);
+    ulEl.innerText = title;
 
     for (let i = 0; i < items.length; i++) {
       const liEl = document.createElement("li");
       liEl.innerText = items[i];
-      liEl.classList.add("works-item__techUsed");
+      liEl.classList.add(className);
 
       ulEl.append(liEl);
     }
@@ -274,8 +283,8 @@ window.addEventListener("load", () => {
    */
   function generateLinks(items) {
     const divLinksEl = document.createElement("div");
-    divLinksEl.classList.add("works-item__links");
-    divLinksEl.textContent = "Check these links";
+    divLinksEl.classList.add("projects-item__links");
+    divLinksEl.textContent = "More: ";
 
     for (let i = 0; i < items.length; i++) {
       const hyperLinkEl = document.createElement("a");
@@ -305,7 +314,7 @@ window.addEventListener("load", () => {
   });
 
   localStorage.setItem("theme", "dark");
-  initWorks();
+  initProjects();
   updateNavBar();
   // updateAppTheme("dark");
 });

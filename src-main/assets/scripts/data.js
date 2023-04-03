@@ -2,12 +2,12 @@
  * All my works
  * @constant
  */
-export const MY_WORKS = [
+export const MY_PROJECTS = [
   {
     _id: "myWorksItem0",
     title: "Musto Task Reminder",
     description:
-      "A web-application for saving and documenting daily tasks. To build this web-application Angular framework is used, and the app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices.",
+      "This project aimed at developing a web-application for saving and documenting daily tasks. To build this web-application Angular framework is used. The app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices. User can create multiple tasks and set a reminder for each if wishes. Moreover, ",
     screenShots: [
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-1.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-2.png?raw=true",
@@ -50,7 +50,7 @@ export const MY_WORKS = [
     _id: "myWorksItem1",
     title: "Musto Flix (Angular)",
     description:
-      "A simple implementation of Angular framework to build a web-app for movie fans, that communicates with the backend server for fetching data. Users can register themselves and set a favorites list of the available movies for themselves. They can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s).",
+      "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MEAN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
     screenShots: [
       "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-1.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-2.png?raw=true",
@@ -79,7 +79,7 @@ export const MY_WORKS = [
     _id: "myWorksItem2",
     title: "Musto Flix (React)",
     description:
-      "A simple implementation of React.js library (framework) to build a web-app for movie fans, that communicates with the backend server for fetching data. Users can register themselves and set a favorites list of the available movies for themselves. They can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s).",
+      "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MERN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
     screenShots: [
       "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-2.png?raw=true",
@@ -88,8 +88,8 @@ export const MY_WORKS = [
     ],
     techUsed: [
       "React JS",
-      "React Bootstrap",
       "React Redux",
+      "React Bootstrap",
       "React Toastify",
       "Parcel",
     ],
@@ -108,7 +108,7 @@ export const MY_WORKS = [
     _id: "myWorksItem3",
     title: "Musto Easy Meet",
     description:
-      "A web-app for tech guys and developers worldwide. This is a web-app for finding events, helping web-developers to meet each other and get connected easier. This web-app is also Progressive Web App (PWA) and can be installed locally on any device as well as run in offline-mode, when the internet is not accessible. The data is fetched via Google Calendar API from a Google Calendar (Calendar ID: fullstackwebdev@careerfoundry.com).",
+      "This project was developed to help tech guys and developers worldwide in finding tech events, and helping them to meet each other and get connected easier. The web-app is a Progressive Web App (PWA) and can be installed locally on any device as well as run in offline-mode, when the internet is not accessible. The data is fetched via Google Calendar API from a Google Calendar (Calendar ID: fullstackwebdev@careerfoundry.com). The app offers the user different features, such as searching an event by city name. The user can also learn about which events are more popular and how many events are taking place in different cities. To use the app, the use must have a GMAIL account and must login with it to use all the features.",
     screenShots: [
       "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-1.png?raw=true",
       "https://github.com/mustafa-sarshar/easy-meet/blob/main/docs/assets/img/musto-easy-meet-2.png?raw=true",
@@ -138,7 +138,7 @@ export const MY_WORKS = [
     _id: "myWorksItem4",
     title: "Musto Friendly Chat",
     description:
-      "An implementation of React Native for developing a simple Chat application for mobile devices (iOS/Android). The backend is developed using Google Firestore.",
+      "The main goal of this project was to develop a mobile app using React Native, for communication purposes via MMS. The end product can be installed on both Android and iOS devices. Moreover, to fully guarantee the data security as well as high performance, the backend was developed using Google Firestore. The app has different features, for example the user can create a personalized user profile change the theme color of the app. User can also send text, image, and even his geolocation to the chatroom. Moreover, user can generate any number of chatroom as much as he wants, and give each a unique ID to make it a private one.",
     screenShots: [
       "https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-1.png?raw=true",
       "https://github.com/mustafa-sarshar/friendly-chat/blob/main/docs/assets/img/musto-friendly-chat-2.png?raw=true",
@@ -157,39 +157,39 @@ export const MY_WORKS = [
       },
     ],
   },
-  {
-    _id: "myWorksItem5",
-    title: "Pokemon (Pocket Monsters) cards",
-    description:
-      "A simple Web-App for kids who are a fan of Pokemon characters. The app fetches the data about Pokemon from pokeapi.co",
-    screenShots: [
-      "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true",
-      "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true",
-      "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true",
-    ],
-    techUsed: [
-      "HTML 5",
-      "CSS 3 (SCSS)",
-      "JavaScript",
-      "jQuery",
-      "Bootstrap v3",
-    ],
-    links: [
-      {
-        title: "Source code",
-        href: "https://github.com/mustafa-sarshar/pokemon-cards/",
-      },
-      {
-        title: "Website",
-        href: "https://mustafa-sarshar.github.io/pokemon-cards/",
-      },
-    ],
-  },
+  // {
+  //   _id: "myWorksItem5",
+  //   title: "Pokemon (Pocket Monsters) cards",
+  //   description:
+  //     "This project was developed with the purpose of helping kids who are a fan of Pokemon characters, to play with Pokemon cards. The app fetches the information of Pokemon from pokeapi.co. ",
+  //   screenShots: [
+  //     "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-1.png?raw=true",
+  //     "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-2.png?raw=true",
+  //     "https://github.com/mustafa-sarshar/pokemon-cards/blob/main/docs/img/pokemon-cards-3.png?raw=true",
+  //   ],
+  //   techUsed: [
+  //     "HTML 5",
+  //     "CSS 3 (SCSS)",
+  //     "JavaScript",
+  //     "jQuery",
+  //     "Bootstrap v3",
+  //   ],
+  //   links: [
+  //     {
+  //       title: "Source code",
+  //       href: "https://github.com/mustafa-sarshar/pokemon-cards/",
+  //     },
+  //     {
+  //       title: "Website",
+  //       href: "https://mustafa-sarshar.github.io/pokemon-cards/",
+  //     },
+  //   ],
+  // },
   {
     _id: "myWorksItem6",
     title: "Signature Maker",
     description:
-      "A simple web application to draw images, shapes and specially signatures in web browser as well as in mobile devices.",
+      "This projects was aimed at helping users in drawing images, shapes and specially signatures in web browser as well as in mobile devices, for free. Moreover, the web-app is highly responsive to all devices. The user can change the drawing settings and download the drawing in .png format. The app's name is Signature Maker, but it can for sure do more that just making a signature 😊.",
     screenShots: [
       "https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-1.png?raw=true",
       "https://github.com/mustafa-sarshar/signature-maker/blob/main/docs/images/signature-maker-2.png?raw=true",
@@ -214,7 +214,7 @@ export const MY_WORKS = [
     _id: "myWorksItem7",
     title: "Movie Api",
     description:
-      "A backend for interacting with Apis. This web application will provide users with the access to information about different movies, directors, actors, and genres through Api. Users will be able to sign up, update their personal information, and create a list of their favorite movies.",
+      "The main goal of this project was to develop a backend server for CRUD operations using RESTFul APIs. The web application provides users with the access to information about different movies, directors, actors, and genres through API. Users have different features, including authentication (sign up and sign in), updating user profile, and creating a list of their favorite movies. The app serves as the backend for two other projects, 1) Musto Flix (Angular), and 2) Musto Flix (React). A non-relational database, named MongoDB is used to store and manipulated the movie data as well as the user's information.",
     screenShots: null,
     techUsed: ["Node JS", "Express JS", "MongoDB"],
     links: [
