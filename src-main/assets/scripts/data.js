@@ -17,10 +17,6 @@ export const MY_PROJECTS = [
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-6.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-7.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-8.png?raw=true",
-      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-9.png?raw=true",
-      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-10.png?raw=true",
-      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-11.png?raw=true",
-      "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-12.png?raw=true",
     ],
     techUsed: [
       "Angular",
