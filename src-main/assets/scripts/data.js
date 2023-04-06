@@ -7,7 +7,7 @@ export const MY_PROJECTS = [
     _id: "myWorksItem0",
     title: "Musto Task Reminder",
     description:
-      "This project aimed at developing a web-application for saving and documenting daily tasks. To build this web-application Angular framework is used. The app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices. User can create multiple tasks and set a reminder for each if wishes. Moreover, ",
+      "This project aimed at developing a web-application for saving and documenting daily tasks. To build this web-application Angular framework is used. The app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices. User can create multiple tasks and set a reminder for each if wishes.",
     screenShots: [
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-1.png?raw=true",
       "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-2.png?raw=true",
