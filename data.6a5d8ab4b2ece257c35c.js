@@ -48,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 const MY_PROJECTS = [{
   _id: "myWorksItem0",
   title: "Musto Task Reminder",
-  description: "This project aimed at developing a web-application for saving and documenting daily tasks. To build this web-application Angular framework is used. The app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices. User can create multiple tasks and set a reminder for each if wishes. Moreover, ",
+  description: "This project aimed at developing a web-application for saving and documenting daily tasks. To build this web-application Angular framework is used. The app works smoothly with Firebase Real Time database and is responsive on all devices. The app offers the users wonderful features such as selecting the language and installing the app on their devices. User can create multiple tasks and set a reminder for each if wishes.",
   screenShots: ["https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-1.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-2.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-3.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-4.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-5.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-6.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-7.png?raw=true", "https://github.com/mustafa-sarshar/musto-task-reminder/blob/main/docs/assets/images/musto-task-reminder-8.png?raw=true"],
   techUsed: ["Angular", "Ngx-Translate", "Google Firebase Real Time Database", "Google Firebase Authentication (Email/Password)", "RESTFul Api", "Progressive Web Application (PWA)", "TypeScript"],
   links: [{
@@ -180,4 +180,4 @@ const MY_PROJECTS = [{
 }];
 /******/ })()
 ;
-//# sourceMappingURL=data.bd82081fec3045f825c1.js.map
+//# sourceMappingURL=data.6a5d8ab4b2ece257c35c.js.map
