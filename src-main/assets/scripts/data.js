@@ -44,7 +44,7 @@ export const MY_PROJECTS = [
   },
   {
     _id: "myWorksItem1",
-    title: "Musto Flix (Angular)",
+    title: "Musto Flix",
     description:
       "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MEAN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
     screenShots: [
@@ -71,35 +71,35 @@ export const MY_PROJECTS = [
       },
     ],
   },
-  {
-    _id: "myWorksItem2",
-    title: "Musto Flix (React)",
-    description:
-      "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MERN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
-    screenShots: [
-      "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true",
-      "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-2.png?raw=true",
-      "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-3.png?raw=true",
-      "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-4.png?raw=true",
-    ],
-    techUsed: [
-      "React JS",
-      "React Redux",
-      "React Bootstrap",
-      "React Toastify",
-      "Parcel",
-    ],
-    links: [
-      {
-        title: "Source code",
-        href: "https://github.com/mustafa-sarshar/musto-flix-react/",
-      },
-      {
-        title: "Website",
-        href: "https://mustafa-sarshar.github.io/musto-flix-react/",
-      },
-    ],
-  },
+  // {
+  //   _id: "myWorksItem2",
+  //   title: "Musto Flix (React)",
+  //   description:
+  //     "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MERN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
+  //   screenShots: [
+  //     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true",
+  //     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-2.png?raw=true",
+  //     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-3.png?raw=true",
+  //     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-4.png?raw=true",
+  //   ],
+  //   techUsed: [
+  //     "React JS",
+  //     "React Redux",
+  //     "React Bootstrap",
+  //     "React Toastify",
+  //     "Parcel",
+  //   ],
+  //   links: [
+  //     {
+  //       title: "Source code",
+  //       href: "https://github.com/mustafa-sarshar/musto-flix-react/",
+  //     },
+  //     {
+  //       title: "Website",
+  //       href: "https://mustafa-sarshar.github.io/musto-flix-react/",
+  //     },
+  //   ],
+  // },
   {
     _id: "myWorksItem3",
     title: "Musto Easy Meet",
