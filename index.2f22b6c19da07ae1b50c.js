@@ -34,7 +34,7 @@ const MY_PROJECTS = [{
   }]
 }, {
   _id: "myWorksItem1",
-  title: "Musto Flix (Angular)",
+  title: "Musto Flix",
   description: "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MEAN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
   screenShots: ["https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-1.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-2.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-3.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-4.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-5.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-6.png?raw=true"],
   techUsed: ["Angular", "TypeScript", "RESTFul Api"],
@@ -48,20 +48,37 @@ const MY_PROJECTS = [{
     title: "Documentation",
     href: "https://github.com/mustafa-sarshar/musto-flix-angular/tree/main/docs"
   }]
-}, {
-  _id: "myWorksItem2",
-  title: "Musto Flix (React)",
-  description: "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MERN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
-  screenShots: ["https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-2.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-3.png?raw=true", "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-4.png?raw=true"],
-  techUsed: ["React JS", "React Redux", "React Bootstrap", "React Toastify", "Parcel"],
-  links: [{
-    title: "Source code",
-    href: "https://github.com/mustafa-sarshar/musto-flix-react/"
-  }, {
-    title: "Website",
-    href: "https://mustafa-sarshar.github.io/musto-flix-react/"
-  }]
-}, {
+},
+// {
+//   _id: "myWorksItem2",
+//   title: "Musto Flix (React)",
+//   description:
+//     "The goal of this project was to build a web-app for movie fans, that communicates with the backend server for fetching data using MERN stack. The app offers the user different features, such as registering and creating a user account and creating a favorites movie list. User can also search a movie, or get more details about it, such as information about its genre(s), director(s), and star(s). This app works with a backend, named 'MovieApi', for CRUD operations as well as RESTFul APIs.",
+//   screenShots: [
+//     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true",
+//     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-2.png?raw=true",
+//     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-3.png?raw=true",
+//     "https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-4.png?raw=true",
+//   ],
+//   techUsed: [
+//     "React JS",
+//     "React Redux",
+//     "React Bootstrap",
+//     "React Toastify",
+//     "Parcel",
+//   ],
+//   links: [
+//     {
+//       title: "Source code",
+//       href: "https://github.com/mustafa-sarshar/musto-flix-react/",
+//     },
+//     {
+//       title: "Website",
+//       href: "https://mustafa-sarshar.github.io/musto-flix-react/",
+//     },
+//   ],
+// },
+{
   _id: "myWorksItem3",
   title: "Musto Easy Meet",
   description: "This project was developed to help tech guys and developers worldwide in finding tech events, and helping them to meet each other and get connected easier. The web-app is a Progressive Web App (PWA) and can be installed locally on any device as well as run in offline-mode, when the internet is not accessible. The data is fetched via Google Calendar API from a Google Calendar (Calendar ID: fullstackwebdev@careerfoundry.com). The app offers the user different features, such as searching an event by city name. The user can also learn about which events are more popular and how many events are taking place in different cities. To use the app, the use must have a GMAIL account and must login with it to use all the features.",
@@ -1004,4 +1021,4 @@ window.addEventListener("load", () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=index.70391db7cacfed7b3d14.js.map
+//# sourceMappingURL=index.2f22b6c19da07ae1b50c.js.map
