@@ -79,9 +79,14 @@ module.exports = {
       template: "src-main/index.html",
     }),
     new HtmlPlugin({
-      title: "Musto's Portfolio Website",
+      title: "Musto's Portfolio Website - Thanks",
       filename: "thanks.html",
       template: "src-main/thanks.html",
+    }),
+    new HtmlPlugin({
+      title: "Musto's Portfolio Website - Impressum",
+      filename: "impressum.html",
+      template: "src-main/impressum.html",
     }),
     // new BundleAnalyzerPlugin(),
   ],

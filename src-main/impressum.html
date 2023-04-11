@@ -23,280 +23,123 @@
   		<link rel="shortcut icon" type="image/x-icon" href="./images/favicon_package_v0.16//favicon-32x32.png">
   	-->
 </head>
-<body id="app-body" class="w3-black">
-
-  <!-- Icon Bar (Sidebar - hidden on small screens) -->
-  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <!-- Avatar image in top left corner -->
-    <img src="./assets/images/profile_photo_1.jpg" style="width:100%">
-    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-home w3-xxlarge"></i>
-      <p>HOME</p>
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-user w3-xxlarge"></i>
-      <p>ABOUT</p>
-    </a>
-    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-eye w3-xxlarge"></i>
-      <p>PROJECTS</p>
-    </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-envelope w3-xxlarge"></i>
-      <p>CONTACT</p>
-    </a>
-    <!-- <button id="btn-toggle-theme" class="w3-button" type="button">
-      Light Mode
-    </button> -->
-  </nav>
-
-  <!-- Navbar on small screens (Hidden on medium and large screens) -->
-  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <a href="#home" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">ABOUT</a>
-      <a href="#projects" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">PROJECTS</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">CONTACT</a>
-    </div>
-  </div>
-
+<body class="w3-black">
   <!-- Page Content -->
   <div class="w3-padding-large" id="main">
-    <!-- Header/Home -->
-    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <h1 class="w3-jumbo">
-        <span class="w3-hide-small">i'm</span> musto
-      </h1>
-      <p>Software- & Web-Developer, Sport & Health Data Scientist, Basketball Coach and Athletic Trainer</p>
-      <!-- <img src="./assets/images/profile_photo_1.jpg" alt="portfolio photo" class="w3-image" width="992" height="1108"> -->
-      <img src="./assets/images/profile_photo_1.jpg" alt="portfolio photo" class="w3-image w3-round w3-animate-opacity"
-        width="400" height="600">
-    </header>
-
-    <!-- About Section -->
     <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-      <h2 class="w3-text-light-grey">Mustafa Sarshar (a.k.a. Musto)</h2>
-      <hr style="width:200px" class="w3-opacity">
-      <p class="w3-text-light-grey">
-        I'm a professional software developer as well as a senior researcher at <a
-          href="https://www.spw.ovgu.de/Der+Bereich/Mitarbeiter/Mustafa+Sarshar.html" target="_blank"
-          rel="noopener noreferrer">academia</a>. I do LOVE programming
-        and solving problems through computational thinking. I have experiences in <a
-          href="https://www.researchgate.net/profile/Mustafa-Sarshar-2" target="_blank" rel="noopener noreferrer">health
-          and sport research</a>
-        sectors as well as artificial intelligence (AI) and its applications for health and sport performance.
-      </p>
-      <p class="w3-text-light-grey">
-        Moreover, as a Full-Stack Web-Developer, I design and develope highly responsive web-applications, both
-        single-page and multi-page, by using the most popular web technologies such as HTML5, CSS3, JavaScript,
-        NodeJS, ReactJS, and Angular.
-      </p>
-      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-      <p class="w3-wide w3-text-light-grey">Computational Thinking</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-      </div><br>
-      <p class="w3-wide w3-text-light-grey">Scientific Research</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:90%"></div>
-      </div><br>
-      <p class="w3-wide w3-text-light-grey">Full-Stack Web Development</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:90%"></div>
-      </div><br>
-      <p class="w3-wide w3-text-light-grey">Data Science & Artificial Intelligence</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-      </div><br>
-      <p class="w3-wide w3-text-light-grey">Graphical Design</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:65%"></div>
-      </div><br>
-
-      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">5</span><br>
-          <a href="https://www.researchgate.net/profile/Mustafa-Sarshar-2" target="_blank"
-            rel="noopener noreferrer">Publications</a>
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">6+</span><br>
-          <a href="https://github.com/mustafa-sarshar" target="_blank" rel="noopener noreferrer">Web-Applications</a>
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">1</span><br>
-          <a href="https://www.mdpi.com/1424-8220/21/17/5749" target="_blank" rel="noopener noreferrer">AI Projects</a>
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">10+</span><br>
-          <a href="https://www.linkedin.com/in/mustafa-sarshar-38a363195/" target="_blank"
-            rel="noopener noreferrer">Qualifications</a>
-        </div>
+      <div class="impressum w3-text-light-grey">
+        <h1>Impressum</h1>
+        <p>Angaben gemäß § 5 TMG</p>
+        <p>Mustafa Sarshar <br>
+          Magdeburg, Deutschland <br>
+        </p>
+        <p>
+          <strong>Vertreten durch: </strong><br>
+          Mustafa Sarshar<br>
+        </p>
+        <p>
+          <strong>Kontakt:</strong> <br>
+          Telefon: N/A<br>
+          E-Mail: musto.tech.service@gmail.com</br>
+        </p>
+        <p>
+          <strong>Umsatzsteuer-ID: </strong> <br>
+          Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: N/A.<br><br>
+          <strong>Wirtschafts-ID: </strong><br>
+          N/A<br>
+        </p>
+        <p>
+          <strong>Aufsichtsbehörde:</strong><br>
+          N/A<br>
+        </p>
+        <p>
+          <strong>Haftungsausschluss: </strong>
+          <br><br>
+          <strong>Haftung für Inhalte</strong>
+          <br><br>
+          Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
+          Aktualität
+          der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für
+          eigene
+          Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als
+          Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen
+          oder
+          nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung
+          oder
+          Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine
+          diesbezügliche
+          Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei
+          Bekanntwerden
+          von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+          <br><br>
+          <strong>Haftung für Links</strong>
+          <br><br>
+          Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben.
+          Deshalb
+          können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist
+          stets
+          der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt
+          der
+          Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung
+          nicht
+          erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte
+          einer
+          Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend
+          entfernen.
+          <br><br>
+          <strong>Urheberrecht</strong>
+          <br><br>
+          Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
+          Urheberrecht.
+          Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
+          Urheberrechtes
+          bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite
+          sind
+          nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom
+          Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als
+          solche
+          gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
+          entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend
+          entfernen.
+          <br><br>
+          <strong>Datenschutz</strong>
+          <br><br>
+          Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren
+          Seiten
+          personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies,
+          soweit
+          möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte
+          weitergegeben. <br>
+          Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail)
+          Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht
+          möglich.
+          <br>
+          Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von
+          nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen.
+          Die
+          Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
+          Werbeinformationen, etwa durch Spam-Mails, vor.<br>
+        </p><br>
+        Website Impressum erstellt durch
+        <a href="https://www.impressum-generator.de">
+          impressum-generator.de
+        </a> von der
+        <a href="https://www.kanzlei-hasselbach.de/" rel="nofollow">Kanzlei Hasselbach</a>
       </div>
-
-      <div class="w3-center">
-        <a class="w3-button w3-light-grey w3-padding-large w3-section" target="_blank"
-          href="./assets/files/Mustafa-Sarshar-Resume_20230409.pdf" rel="noopener noreferrer">
-          <i class="fa fa-download"></i>
-          Download Resume
-        </a>
-      </div>
-
-      <!-- Grid for pricing tables -->
-      <!-- <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half w3-margin-bottom">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-            <li class="w3-padding-16">Web-App Development</li>
-            <li class="w3-padding-16">AI Projects</li>
-            <li class="w3-padding-16">Mail Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 10</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-            </li>
-          </ul>
-        </div>
-
-        <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-            <li class="w3-padding-16">Web-App Development</li>
-            <li class="w3-padding-16">AI Projects</li>
-            <li class="w3-padding-16">Endless Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 25</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-            </li>
-          </ul>
-        </div>
-      </div> -->
-
-      <!-- Testimonials -->
-      <!-- <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
-      <img src="https://" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-      <p><span class="w3-large w3-margin-right">Person's Name</span> CEO at SOMEWHERE.</p>
-      <p>a nice comment or feedback.</p><br>
-
-      <img src="https://" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-      <p><span class="w3-large w3-margin-right">Person's Name</span> CEO at SOMEWHERE.</p>
-      <p>a nice comment or feedback.</p> -->
-    </div>
-
-    <!-- Portfolio Section -->
-    <div class="w3-padding-64 w3-content" id="projects">
-      <h2 class="w3-text-light-grey">My Projects</h2>
-      <hr style="width:200px" class="w3-opacity">
-
-      <div class="w3-content w3-display-container" id="slide-show-projects">
-        <!-- <div class="projects-item">
-          <h3 class="projects-item__title">Musto Flix (Angular)</h3>
-          <img class="projects-item__image"
-            src="https://github.com/mustafa-sarshar/musto-flix-angular/blob/main/docs/assets/img/musto-flix-angular-1.png?raw=true">
-          <p>A web-application for movie fans.</p>
-        </div>
-        <div class="projects-item">
-          <h3 class="projects-item__title">Musto Flix (React)</h3>
-          <img class="projects-item__image"
-            src="https://github.com/mustafa-sarshar/musto-flix-react/blob/main/docs/assets/img/musto-flix-react-1.png?raw=true">
-          <p>A web-application for movie fans.</p>
-        </div>
-
-
-        <button class="w3-button w3-black w3-display-left" onclick="myWorksSlideShow.previous()">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="myWorksSlideShow.next()">&#10095;</button> -->
-      </div>
-
-      <!-- Grid for projects -->
-      <!-- <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half">
-          <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
-        </div>
-
-        <div class="w3-half">
-          <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
-        </div>
-      </div> -->
-    </div>
-
-    <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-      <h2 class="w3-text-light-grey">Contact Me</h2>
-      <hr style="width:200px" class="w3-opacity">
-
-      <div class="w3-section w3-text-light-grey">
-        <p>
-          <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Magdeburg, Germany
-        </p>
-        <!-- <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 000000</p> -->
-        <p>
-          <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
-          musto.tech.service@gmail.com
-        </p>
-        <p>
-          <i class="fa fa-balance-scale fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>
-          <a href="./impressum.html" class="w3-hover-black" rel="noopener noreferrer">
-            Impressum
-          </a>
-        </p>
-      </div><br>
-      <p class="w3-text-light-grey">Let's get in touch. Send me a message:</p>
-
-      <!-- Info: https://formsubmit.co/ -->
-      <form action="https://formsubmit.co/musto.tech.service@gmail.com" method="POST" id="contactForm">
-        <input type="hidden" name="_next" value="https://mustafa-sarshar.github.io/portfolio-website/thanks.html">
-        <!-- <input type="hidden" name="_cc" value="another@email.com"> -->
-        <!-- <input type="hidden" name="_captcha" value="false"> -->
-        <!-- <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase"> -->
-        <p>
-          <input class="w3-input w3-padding-16" type="text" placeholder="Name" name="name" minlength="5" required>
-        </p>
-        <p>
-          <input class="w3-input w3-padding-16" type="text" placeholder="Email" name="email" required>
-        </p>
-        <p>
-          <input class="w3-input w3-padding-16" type="text" placeholder="Subject" name="_subject" minlength="5"
-            required>
-        </p>
-        <p>
-          <textarea class="w3-input w3-padding-16" placeholder="Message" name="message" minlength="20" rows="4"
-            cols="50" required></textarea>
-        </p>
-        <p>
-          <button id="btnSendMessage" class="w3-button w3-light-grey w3-padding-large" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </p>
-      </form>
+      <a href="./index.html" target="_self" rel="noopener noreferrer">
+        <i class="fa fa-backward w3-hover-opacity w3-margin-right" title="GitHub"></i>
+        BACK TO MY PORTFOLIO WEBSITE 😉
+      </a>
     </div>
 
     <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-light-grey w3-xlarge">
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
       <h3 class="w3-text-light-grey">Useful Links</h3>
       <hr style="width:200px" class="w3-opacity">
       <a href="https://github.com/mustafa-sarshar" target="_blank" rel="noopener noreferrer">
         <i class="fa fa-github w3-hover-opacity w3-margin-right" title="GitHub"></i>
       </a>
-      <a href="https://www.linkedin.com/in/mustafa-sarshar-musto/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/mustafa-sarshar-38a363195/" target="_blank" rel="noopener noreferrer">
         <i class="fa fa-linkedin w3-hover-opacity w3-margin-right" title="LinkedIn"></i>
       </a>
       <a href="https://twitter.com/MustafaSarshar" target="_blank" rel="noopener noreferrer">
@@ -319,9 +162,7 @@
       <!-- Berlin Animation -->
       <div class="berlin-animation__container">
         <h2 class="berlin-animation__container-title w3-text-light-grey w3-opacity">
-          <a href="https://codepen.io/careerfoundry/pen/wvqoyPW" target="_blank" rel="noopener noreferrer">🎊 Berlin
-            😎
-          </a>
+          <a href="https://codepen.io/careerfoundry/pen/wvqoyPW" target="_blank">🎊 Berlin 😎</a>
         </h2>
         <svg id="about-picture" xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" length="auto"
           viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1770,7 +1611,6 @@
   </div>
 
   <noscript>Please enable your browser to run JavaScript codes.</noscript>
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <script src="./assets/scripts/w3.js"></script>
 </body>
 </html>
