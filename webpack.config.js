@@ -68,8 +68,8 @@ module.exports = {
         { from: "src-main/assets/styles/w3.css", to: "assets/styles/w3.css" },
         { from: "src-main/assets/scripts/w3.js", to: "assets/scripts/w3.js" },
         {
-          from: "src-main/assets/files/Mustafa-Sarshar-Resume_20230409.pdf",
-          to: "assets/files/Mustafa-Sarshar-Resume_20230409.pdf",
+          from: "src-main/assets/files/Mustafa-Sarshar-Resume_20230413.pdf",
+          to: "assets/files/Mustafa-Sarshar-Resume_20230413.pdf",
         },
       ],
     }),
