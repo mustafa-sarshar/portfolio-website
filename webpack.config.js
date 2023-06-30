@@ -68,8 +68,8 @@ module.exports = {
         { from: "src-main/assets/styles/w3.css", to: "assets/styles/w3.css" },
         { from: "src-main/assets/scripts/w3.js", to: "assets/scripts/w3.js" },
         {
-          from: "src-main/assets/files/Mustafa-Sarshar-Resume_20230413.pdf",
-          to: "assets/files/Mustafa-Sarshar-Resume_20230413.pdf",
+          from: "src-main/assets/files/Mustafa-Sarshar-Resume_20230630.pdf",
+          to: "assets/files/Mustafa-Sarshar-Resume_20230630.pdf",
         },
       ],
     }),
@@ -84,9 +84,9 @@ module.exports = {
       template: "src-main/thanks.html",
     }),
     new HtmlPlugin({
-      title: "Musto's Portfolio Website - Impressum",
-      filename: "impressum.html",
-      template: "src-main/impressum.html",
+      title: "Musto's Portfolio Website - Imprint",
+      filename: "imprint.html",
+      template: "src-main/imprint.html",
     }),
     // new BundleAnalyzerPlugin(),
   ],
