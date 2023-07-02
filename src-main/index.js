@@ -35,44 +35,6 @@ window.addEventListener("load", () => {
     updateNavBar();
   });
 
-  // btnToggleThemeEl.addEventListener("click", (_) => {
-  //   const theme = localStorage.getItem("theme") || null;
-  //   if (theme === "light") {
-  //     updateAppTheme("dark");
-  //   } else {
-  //     updateAppTheme("light");
-  //   }
-  // });
-
-  // function updateAppTheme(theme) {
-  //   if (theme === "dark") {
-  //     appBodyEl.classList.remove("theme-reverse");
-  //     localStorage.setItem("theme", "dark");
-  //     btnToggleThemeEl.innerHTML = btnToggleThemeEl.textContent = "Light Mode";
-  //     updatePageElementsThemeColor("dark");
-  //     console.log("Theme Dark");
-  //   } else {
-  //     appBodyEl.classList.add("theme-reverse");
-  //     localStorage.setItem("theme", "light");
-  //     btnToggleThemeEl.innerHTML = btnToggleThemeEl.textContent = "Dark Mode";
-  //     updatePageElementsThemeColor("light");
-  //     console.log("Theme Light");
-  //   }
-  // }
-
-  // function updatePageElementsThemeColor(theme) {
-  //   const appElements = document.getElementsByClassName("w3-black");
-  //   for (let i = 0; i < appElements.length; i++) {
-  //     if (theme === "dark") {
-  //       appElements[i].classList.remove("w3-white");
-  //       appElements[i].classList.add("w3-black");
-  //     } else {
-  //       appElements[i].classList.remove("w3-black");
-  //       appElements[i].classList.add("w3-white");
-  //     }
-  //   }
-  // }
-
   function updateNavBar() {
     const divHomeOffsets = divHomeEl.getBoundingClientRect();
     const divAboutOffsets = divAboutEl.getBoundingClientRect();
