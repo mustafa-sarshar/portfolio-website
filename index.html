@@ -1,242 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>
-    Musto's Portfolio Website
-  </title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-  <link rel="stylesheet" href="./assets/styles/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- based on realfavicongenerator.net recommendations START -->
-  <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicon_package_v0.16/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_package_v0.16//favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_package_v0.16/favicon-16x16.png">
-  <link rel="manifest" href="./assets/images/favicon_package_v0.16//site.webmanifest">
-  <link rel="mask-icon" href="./assets/images/favicon_package_v0.16//safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <!-- END -->
-  <!-- Not needed any more
+  <head>
+    <title>Musto's Portfolio Website</title>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="refresh"
+      content="0; URL=https://mustafa-sarshar.web.app"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="./assets/styles/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- based on realfavicongenerator.net recommendations START -->
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/images/favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon_package_v0.16//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="./assets/images/favicon_package_v0.16//site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="./assets/images/favicon_package_v0.16//safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- END -->
+    <!-- Not needed any more
   		<link rel="shortcut icon" type="image/x-icon" href="./images/favicon_package_v0.16//favicon-32x32.png">
   	-->
-<script defer src="data.ae8672d3c6c2331e7a6f.js"></script><script defer src="index.3dfafcb4fd9eb4e78e95.js"></script></head>
-<body id="app-body" class="w3-black">
-
-  <!-- Icon Bar (Sidebar - hidden on small screens) -->
-  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <!-- Avatar image in top left corner -->
-    <img src="./assets/images/profile_photo_1.jpg" style="width:100%">
-    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-home w3-xxlarge"></i>
-      <p>HOME</p>
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-user w3-xxlarge"></i>
-      <p>ABOUT</p>
-    </a>
-    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-eye w3-xxlarge"></i>
-      <p>PROJECTS</p>
-    </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-bar-item__side"
-      rel="noopener noreferrer">
-      <i class="fa fa-envelope w3-xxlarge"></i>
-      <p>CONTACT</p>
-    </a>
-  </nav>
-
-  <!-- Navbar on small screens (Hidden on medium and large screens) -->
-  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <a href="#home" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">ABOUT</a>
-      <a href="#projects" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">PROJECTS</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-bar-item__top" style="width:25% !important"
-        rel="noopener noreferrer">CONTACT</a>
-    </div>
-  </div>
-
-  <!-- Page Content -->
-  <div class="w3-padding-large" id="main">
-    <!-- Header/Home -->
-    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <h1 class="w3-jumbo">
-        <span class="w3-hide-small">i'm</span> musto
-      </h1>
-      <p class="p-21">
-        Software- & Web-Developer, Sport & Health Data Scientist, Basketball Coach and Athletic Trainer
-      </p>
-      <!-- <img src="./assets/images/profile_photo_1.jpg" alt="portfolio photo" class="w3-image" width="992" height="1108"> -->
-      <img src="./assets/images/profile_photo_1.jpg" alt="portfolio photo" class="w3-image w3-round w3-animate-opacity"
-        width="400" height="600">
-    </header>
-
-    <!-- About Section -->
-    <div class="w3-content w3-text-grey w3-padding-64" id="about">
-      <h2 class="w3-text-light-grey">Mustafa Sarshar (a.k.a. Musto)</h2>
-      <hr style="width:200px" class="w3-opacity">
-      <p class="w3-text-light-grey p-21">
-        I'm a professional software developer as well as a senior researcher at <a
-          href="https://www.spw.ovgu.de/Der+Bereich/Mitarbeiter/Mustafa+Sarshar.html" target="_blank"
-          rel="noopener noreferrer">academia</a>. I do LOVE programming
-        and solving problems through computational thinking. I have experiences in <a
-          href="https://www.researchgate.net/profile/Mustafa-Sarshar-2" target="_blank" rel="noopener noreferrer">health
-          and sport research</a>
-        sectors as well as artificial intelligence (AI) and its applications for health and sport performance.
-      </p>
-      <p class="w3-text-light-grey p-21">
-        Moreover, as a Full-Stack Web-Developer, I design and develope highly responsive web-applications, both
-        single-page and multi-page, by using the most popular web technologies such as HTML5, CSS3, JavaScript,
-        NodeJS, ReactJS, and Angular.
-      </p>
-      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-      <section class="p-21">
-        <p class="w3-wide w3-text-light-grey">Computational Thinking</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-        </div><br>
-        <p class="w3-wide w3-text-light-grey">Scientific Research</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:90%"></div>
-        </div><br>
-        <p class="w3-wide w3-text-light-grey">Full-Stack Web Development</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:90%"></div>
-        </div><br>
-        <p class="w3-wide w3-text-light-grey">Data Science & Artificial Intelligence</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-        </div><br>
-        <p class="w3-wide w3-text-light-grey">Graphical Design</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:65%"></div>
-        </div>
-      </section>
-      <br>
-      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">5</span><br>
-          <a href="https://www.researchgate.net/profile/Mustafa-Sarshar-2" target="_blank"
-            rel="noopener noreferrer">Publications</a>
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">6+</span><br>
-          <a href="https://github.com/mustafa-sarshar" target="_blank" rel="noopener noreferrer">Web-Applications</a>
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">1</span><br>
-          <a href="https://www.mdpi.com/1424-8220/21/17/5749" target="_blank" rel="noopener noreferrer">AI Projects</a>
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">10+</span><br>
-          <a href="https://www.linkedin.com/in/mustafa-sarshar-38a363195/" target="_blank"
-            rel="noopener noreferrer">Qualifications</a>
-        </div>
-      </div>
-
-      <div class="w3-center">
-        <a class="w3-button w3-light-grey w3-padding-large w3-section" target="_blank"
-          href="./assets/files/Mustafa-Sarshar-Resume_20230904.pdf" rel="noopener noreferrer">
-          <i class="fa fa-download"></i>
-          Download Resume
-        </a>
-      </div>
-    </div>
-
-    <!-- Portfolio Section -->
-    <div class="w3-padding-64 w3-content" id="projects">
-      <h2 class="w3-text-light-grey">My Projects</h2>
-      <hr style="width:200px" class="w3-opacity">
-
-      <div class="w3-content w3-display-container p-21" id="slide-show-projects">
-      </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-      <h2 class="w3-text-light-grey">Contact Me</h2>
-      <hr style="width:200px" class="w3-opacity">
-
-      <div class="w3-section w3-text-light-grey p-21">
-        <p>
-          <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Magdeburg, Germany
-        </p>
-        <p>
-          <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>
-          musto.tech.service@gmail.com
-        </p>
-        <p>
-          <i class="fa fa-balance-scale fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>
-          <a href="./imprint.html" class="w3-hover-black" rel="noopener noreferrer">
-            Imprint
-          </a>
-        </p>
-      </div><br>
-      <p class="w3-text-light-grey">Let's get in touch. Send me a message:</p>
-
-      <!-- Info: https://formsubmit.co/ -->
-      <form action="https://formsubmit.co/musto.tech.service@gmail.com" method="POST" id="contactForm">
-        <input type="hidden" name="_next" value="https://mustafa-sarshar.github.io/portfolio-website/thanks.html">
-        <!-- <input type="hidden" name="_cc" value="another@email.com"> -->
-        <!-- <input type="hidden" name="_captcha" value="false"> -->
-        <!-- <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase"> -->
-        <p>
-          <input class="w3-input w3-padding-16" type="text" placeholder="Name" name="name" minlength="5" required>
-        </p>
-        <p>
-          <input class="w3-input w3-padding-16" type="text" placeholder="Email" name="email" required>
-        </p>
-        <p>
-          <input class="w3-input w3-padding-16" type="text" placeholder="Subject" name="_subject" minlength="5"
-            required>
-        </p>
-        <p>
-          <textarea class="w3-input w3-padding-16" placeholder="Message" name="message" minlength="20" rows="4"
-            cols="50" required></textarea>
-        </p>
-        <p>
-          <button id="btnSendMessage" class="w3-button w3-light-grey w3-padding-large" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </p>
-      </form>
-    </div>
-
-    <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-light-grey w3-xlarge">
-      <h3 class="w3-text-light-grey">Useful Links</h3>
-      <hr style="width:200px" class="w3-opacity">
-      <a href="https://github.com/mustafa-sarshar" target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-github w3-hover-opacity w3-margin-right" title="GitHub"></i>
-      </a>
-      <a href="https://www.behance.net/mustafasarshar" target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-behance w3-hover-opacity w3-margin-right" title="Behance"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/mustafa-sarshar-musto/" target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-linkedin w3-hover-opacity w3-margin-right" title="LinkedIn"></i>
-      </a>
-      <br>
-      <a href="https://www.researchgate.net/profile/Mustafa-Sarshar-2" target="_blank" rel="noopener noreferrer">
-        <i class="fa w3-hover-opacity">
-          <img
-            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDQ0OCA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMzJ2NDQ4aDQ0OFYzMkgwem0yNjIuMiAzMzQuNGMtNi42IDMtMzMuMiA2LTUwLTE0LjItOS4yLTEwLjYtMjUuMy0zMy4zLTQyLjItNjMuNi04LjkgMC0xNC43IDAtMjEuNC0uNnY0Ni40YzAgMjMuNSA2IDIxLjIgMjUuOCAyMy45djguMWMtNi45LS4zLTIzLjEtLjgtMzUuNi0uOC0xMy4xIDAtMjYuMS42LTMzLjYuOHYtOC4xYzE1LjUtMi45IDIyLTEuMyAyMi0yMy45VjIyNWMwLTIyLjYtNi40LTIxLTIyLTIzLjlWMTkzYzI1LjggMSA1My4xLS42IDcwLjktLjYgMzEuNyAwIDU1LjkgMTQuNCA1NS45IDQ1LjYgMCAyMS4xLTE2LjcgNDIuMi0zOS4yIDQ3LjUgMTMuNiAyNC4yIDMwIDQ1LjYgNDIuMiA1OC45IDcuMiA3LjggMTcuMiAxNC43IDI3LjIgMTQuN3Y3LjN6bTIyLjktMTM1Yy0yMy4zIDAtMzIuMi0xNS43LTMyLjItMzIuMlYxNjdjMC0xMi4yIDguOC0zMC40IDM0LTMwLjRzMzAuNCAxNy45IDMwLjQgMTcuOWwtMTAuNyA3LjJzLTUuNS0xMi41LTE5LjctMTIuNWMtNy45IDAtMTkuNyA3LjMtMTkuNyAxOS43djI2LjhjMCAxMy40IDYuNiAyMy4zIDE3LjkgMjMuMyAxNC4xIDAgMjEuNS0xMC45IDIxLjUtMjYuOGgtMTcuOXYtMTAuN2gzMC40YzAgMjAuNSA0LjcgNDkuOS0zNCA0OS45em0tMTE2LjUgNDQuN2MtOS40IDAtMTMuNi0uMy0yMC0uOHYtNjkuN2M2LjQtLjYgMTUtLjYgMjIuNS0uNiAyMy4zIDAgMzcuMiAxMi4yIDM3LjIgMzQuNSAwIDIxLjktMTUgMzYuNi0zOS43IDM2LjZ6Ii8+PC9zdmc+"
-            alt="ResearchGate" width="30" height="30" title="ResearchGate" style="background-color: rgb(88, 81, 81);">
-        </i>
-      </a>
-    </footer>
-  </div>
-
-  <noscript>Please enable your browser to run JavaScript codes.</noscript>
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
-  <script src="./assets/scripts/w3.js"></script>
-</body>
+  <script defer src="data.ae8672d3c6c2331e7a6f.js"></script><script defer src="index.3dfafcb4fd9eb4e78e95.js"></script></head>
+  <body id="app-body" class="w3-black">
+    <noscript>Please enable your browser to run JavaScript codes.</noscript>
+  </body>
 </html>
